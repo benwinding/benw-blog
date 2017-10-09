@@ -5,7 +5,9 @@
     "start": "yarn build && yarn serve",
     "build": "hexo generate",
     "serve": "hexo server -s -p 5000",
-    "predeploy": "hexo generate"
+    "dokku": {
+      "predeploy": "yarn build"
+    }
   },
   "hexo": {
     "version": "3.3.9"
