@@ -1,1 +1,1 @@
-web: hexo generate && hexo server -s -p $PORT
+web: hexo server -s -p $PORT
