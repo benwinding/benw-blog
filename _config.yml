@@ -8,7 +8,7 @@ subtitle: A blog
 description:
 author: Ben Winding
 language:
-timezone:
+timezone: Australia/Adelaide
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
