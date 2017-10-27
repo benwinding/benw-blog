@@ -16,6 +16,7 @@ url: https://blog.benwinding.com
 root: /
 permalink: :title/
 permalink_defaults:
+disqus_shortname: ben-winding
 
 # Directory
 source_dir: source
