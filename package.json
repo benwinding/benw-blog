@@ -1,6 +1,6 @@
 {
-  "name": "benwinding-portal",
-  "version": "0.0.0",
+  "name": "benwinding-blog",
+  "version": "0.0.1",
   "scripts": {
     "start": "yarn build && yarn serve",
     "build": "hexo generate",
