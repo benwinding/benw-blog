@@ -6,20 +6,34 @@ tags:
 
 **Abstraction** is one of the fundamental concepts of science and engineering. It is most highly valued in computer science and allows for communication of intent at different levels of responsibility.
 
+It can be confusing at first, especially since the word abstraction has connotations of obscurity, as seen in modern abstract art.
+
 # Layers
 
-It can be confusing at first, especially since the word abstraction has connotations of obscurity, as seen in modern abstract art. However it can be basically understood as putting boundaries around complexity in a problem. 
+However it can be basically understood as putting boundaries around complexity in a problem. In other words, dividing a problem into seperate layers.
 
 ![](https://i.imgur.com/7t69XGp.jpg) 
 src: https://thevisibilityblog.com/2011/08/26/freud-cells-and-visibility/
 
+## Layer 1 - The Mind
+
 By dividing a problem into layers of complexity, a seemingly enormously complex task, becomes easy to manage. For example the image above shows the layers of scientific understanding, which helps to explain the natural behaviour behind the famous psychologist **Sigmund Freud**. The first layer below Freud represents the brain as a structure. This layer focuses on the personality and consciousness of Freud. 
 
-It is important that the scope of this layer is responsible for the mind of Freud, not the mechanism behind the mind. The layer below the brain is the electrical activity in the neurons from within the brain. This can be observed from MRI machines and although not well understood, it can is used to explain how thoughts arise to thoughts and personality. The next layer is the neuron cells themselves. This layer is used to explain how the cells work individually, this layer is not concerned about the network of electrical activity, but only a single electrical impulse. 
+It is important that the scope of this layer is responsible for the mind of Freud, not the mechanism behind the mind. 
+
+## Layer 2 - Electrical Patterns
+
+The layer below the brain is the electrical activity in the neurons from within the brain. This can be observed from MRI machines and although not well understood, it can is used to explain how thoughts arise to thoughts and personality. 
+
+## Layer 3 - Cellular
+
+The next layer is the neuron cells themselves. This layer is used to explain how the cells work individually, this layer is not concerned about the network of electrical activity, but only a single electrical impulse. 
+
+## Layer 4 - The Atomic
 
 The final layer shown is the molecular structure of the cells. This is one of the lowest layers of the stack and is responsible for the way atoms and molecules interact, to build the neurons. Subsequently, it becomes clear that we have defined a system composed of layers of concepts. These layers can be thought of as **abstractions**, each layer abstraction, is only concerned about the stuff on it's layer. Not below ,  Each layer represents a different level of detail, which has it's own realm of complexity. The important thing to note, is that each layer has it's own rules and behaviour, this allows us to focus on what is happening within each layer, rather than treating the whole brain and it's behaviour as one item.
 
-# A TV Remote!
+# TV Remote - Example
 
 One simple example that I've found to illustrate the importance of abstraction in software, is simply an ordinary TV Remote. Basically, the TV remote provides several key features which help you manipulate the TV:
 
