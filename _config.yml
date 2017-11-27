@@ -7,7 +7,9 @@ title: blog.benwinding
 subtitle: The essence of amateur
 description: I'm not sure if it's possible for anyone to read this?
 author: Ben Winding
-language: EN
+language:
+- default
+- en
 timezone: Australia/Adelaide
 
 # URL
