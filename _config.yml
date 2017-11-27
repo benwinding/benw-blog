@@ -78,4 +78,9 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/benwinding/benw-blog.git
+  branch: master
+
+admin:
+  deployCommand: './hexo-deploy.sh'
