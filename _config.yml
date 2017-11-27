@@ -76,13 +76,3 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: landscape
-
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: git
-  repo: https://github.com/benwinding/benw-blog.git
-  branch: master
-
-admin:
-  deployCommand: './hexo-deploy.sh'
