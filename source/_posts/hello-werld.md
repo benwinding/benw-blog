@@ -14,6 +14,8 @@ This blog has been started to help me with writing and expressing my thoughts a
 2.  Show off what I'm learning
 3.  Improve writing skills
 
+<!-- more --> 
+
 ## Development Cycle
 
 ![](https://i.imgur.com/9aJVGvE.png) ^ was made using: [https://code2flow.com](https://code2flow.com) ... here's the source code to the image above:

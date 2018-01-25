@@ -11,6 +11,8 @@ The following tutorial shows the easiest way I've found to deploy pretty much an
 ☑ ``$ ssh user@server`` get into the server
 ☑ pm2 or apache2 or nginx .... some kind of server is running
 
+<!-- more --> 
+
 ## Server Side
 Create the following file in the home directory of the server... it's just 3 lines.
 

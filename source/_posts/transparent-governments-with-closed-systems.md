@@ -6,6 +6,8 @@ tags:
 
 Most people cringe at the thought of viewing or using government websites. It seems they're always light years behind the industry in terms of standards and technology. It's one of the biggest gaps between the private sector and the public sector, but why is this?
 
+<!-- more --> 
+
 ## Development Time
 The difference between commercial websites and public government websites is the restraints on the development of the site. For example; a typical government website in Australia requires several criteria to be met before the project can even be considered:
 
