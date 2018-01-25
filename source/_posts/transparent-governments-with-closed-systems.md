@@ -2,6 +2,9 @@
 title: Transparent Governments With Opaque Software
 date: 2018-01-24 22:30:28
 tags:
+- rant
+- government
+- open-source
 ---
 
 Most people cringe at the thought of viewing or using government websites. It seems they're always light years behind the industry in terms of standards and technology. It's one of the biggest gaps between the private sector and the public sector, but why is this?

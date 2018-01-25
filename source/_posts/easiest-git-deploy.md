@@ -1,7 +1,12 @@
 ---
 title: Easiest Git Deploy Ever!
 date: 2017-11-25 10:43:58
-tags: git, ssh, deploy, node
+tags:
+- git
+- development
+- ssh
+- deploy
+- node
 ---
 
 The following tutorial shows the easiest way I've found to deploy pretty much any application to another machine!
