@@ -27,7 +27,9 @@ After 30 minutes of installing the Windows update, the hacker went back to his m
 This journey ignited by mistrust is a burn most hackers can relate to. It's a  can be summarised in a few different ways:
 
 - My machine can't run this program, how can I make it.
-- How does this 
+- Why doesn't 
+
+
 
 [^1]: How the word 'hacker' got corrupted - [http://www.smh.com.au/it-pro/security-it/how-the-word-hacker-got-corrupted-20130709-hv0rt.html](http://www.smh.com.au/it-pro/security-it/how-the-word-hacker-got-corrupted-20130709-hv0rt.html)
 [^2]: The Word "Hacker" - [http://www.paulgraham.com/gba.html](http://www.paulgraham.com/gba.html)
