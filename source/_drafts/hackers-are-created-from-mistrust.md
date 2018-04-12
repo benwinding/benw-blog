@@ -24,10 +24,13 @@ This striving for something better may stem from the dis-satisfaction of what is
 After 30 minutes of installing the Windows update, the hacker went back to his movie and tried to continue watching, but found him self annoyed at why the computer did that... it's this feeling that begin's the journey of many hackers into the rabbit hole of how-things-work and how-can-i-make-them-do-what-i-want.
 
 ### Mistrust is the root of all hackers
-This journey ignited by mistrust is a burn most hackers can relate to. It's a  can be summarised in a few different ways:
+This journey ignited by mistrust is a burn most hackers can relate to. It's a story which can be summarised in a few different ways:
 
 - My machine can't run this program, how can I make it.
-- How does this 
+- How does this even do that?
+- I want this
+
+You don't need to find the
 
 [^1]: How the word 'hacker' got corrupted - [http://www.smh.com.au/it-pro/security-it/how-the-word-hacker-got-corrupted-20130709-hv0rt.html](http://www.smh.com.au/it-pro/security-it/how-the-word-hacker-got-corrupted-20130709-hv0rt.html)
 [^2]: The Word "Hacker" - [http://www.paulgraham.com/gba.html](http://www.paulgraham.com/gba.html)

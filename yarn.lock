@@ -1752,6 +1752,12 @@ hexo-fs@^0.2.0:
     escape-string-regexp "^1.0.5"
     graceful-fs "^4.1.4"
 
+hexo-generator-api@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/hexo-generator-api/-/hexo-generator-api-0.1.0.tgz#4a8c1838ab8c80c3f8b1446492e5ea72d7d1e1d7"
+  dependencies:
+    underscore "^1.7.0"
+
 hexo-generator-archive@^0.1.4:
   version "0.1.5"
   resolved "https://registry.yarnpkg.com/hexo-generator-archive/-/hexo-generator-archive-0.1.5.tgz#a979214cdddee2693e0551809c294bedadbb69b3"
@@ -3813,6 +3819,10 @@ ultron@~1.1.0:
 umd@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/umd/-/umd-3.0.1.tgz#8ae556e11011f63c2596708a8837259f01b3d60e"
+
+underscore@^1.7.0:
+  version "1.8.3"
+  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.8.3.tgz#4f3fb53b106e6097fcf9cb4109f2a5e9bdfa5022"
 
 universalify@^0.1.0:
   version "0.1.1"
