@@ -1849,6 +1849,10 @@ hexo-server@^0.2.0:
     opn "^4.0.0"
     serve-static "^1.10.0"
 
+hexo-tag-twitter@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/hexo-tag-twitter/-/hexo-tag-twitter-1.0.1.tgz#92856d696db5e0b1f535d025d28a38298b8133e3"
+
 hexo-util@^0.1.6:
   version "0.1.7"
   resolved "https://registry.yarnpkg.com/hexo-util/-/hexo-util-0.1.7.tgz#fdc84e1bf21b19c4c8695424585aa9f13ecd6353"

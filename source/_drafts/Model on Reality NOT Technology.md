@@ -9,6 +9,6 @@ Computer science has a rich history of concepts and idea's which aim to make sol
 - OOP - Object Oriented Programming
 - Relational Databases
 
-Like any field, computer science has a long history of problem's and various solutions to overcome them. An example of this is the change in the way programs are installed on computers.
+Like any field, computer science has a long history of problem's and various solutions to overcome them. An example of this is the change in the way programs are installed on computers. Programs were once shipped physically on actual matter! whereas now the information that comprises them, flies across the world through electrical transmissions.
 
-When Modelling a Problem
+Problem's are not only 
