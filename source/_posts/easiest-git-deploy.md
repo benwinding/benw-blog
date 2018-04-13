@@ -1,4 +1,3 @@
----
 title: Easiest Git Deploy Ever!
 date: 2017-11-25 10:43:58
 tags:
