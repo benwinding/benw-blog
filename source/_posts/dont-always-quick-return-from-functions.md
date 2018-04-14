@@ -16,9 +16,9 @@ There are two main styles of returning from a function in a program. Both styles
 
 <!-- more --> 
  
-### Single Return (Nested)
+### Single Return
 An example of nested single-returning. This is hard to read and keep track of the levels of scope.
- 
+
 ``` c
 int GetCost(request) {
     int cost = 0;
@@ -41,42 +41,51 @@ int GetCost(request) {
     return cost;
 }
 ```
- 
+
 ### Quick Return
 Now arguably the code can be made simpler by using the prophetic "Quick Return!" method. This has the effect of returning out of the function as soon as possible, making the code easier to reason about. Also, by unravelling the if-statements into a neat stack, the code becomes much easier to read.
  
 ``` c
 int GetCost(request) {
-    if (!request.Important) {
+    if (!request.Important) 
         return 20;
-    if (!request.HasDiscount) {
+    if (!request.HasDiscount) 
         return 14;
-    if (!request.IsMember) {
+    if (!request.IsMember) 
         return 12;
-    }
-    return 10;
+    else
+        return 10;
 }
 ```
- 
-# However ...
-The reason quick returns were not encouraged in earlier days of programming is clean up. During the execution of a function, memory may be allocated. So a simplify this, the function is given only one exit point, to ensure all memory in the function is deallocated before that point. If a programmer were to accidentally return early before the deallocation had been called, then memory leaks could easily occur.
 
-The following is a refactored version of the single return function. Cleaner and easier to read with still one return statement (and a little clean up).
- 
+# However ... Memory Leaks
+The reason quick returns were not encouraged in earlier days of programming is a lack of garbage collection. During the execution of a function, memory may be allocated. So a simplify this, the function is given only one exit point, to ensure all memory in the function is deallocated before the function returns. 
+
+The following is another version of the single return function (with an added checking object). Cleaner and easier to read with still one return statement (and a little clean up).
+
 ``` c
 int GetCost(request) {
+    Checker checker = new Checker(request);
     int cost = 0;
-    if (!request.Important) {
+    if (!checker.Important) 
         cost = 20;
-    if (!request.HasDiscount) {
+    if (!checker.HasDiscount) 
         cost = 14;
-    if (!request.IsMember) {
+    if (!checker.IsMember) 
         cost = 12;
-    }
-    cost = 10;
-    delete request;
+    else 
+        cost = 10;
+    delete checker;
     return cost;
 }
 ```
- 
-So the older method of single return is not completely useless! And depending on the language and environment, quick-returns may not always be the best solution.
+
+But memory might not be the only thing that needs to be cleaned up at the end of a function's execution. There are other things that might need to be 'freed up' like:
+
+- Hardware resources
+- Object mutation locks
+- Network connections
+
+By returning only once within a function, the chance of leaving one of these resources open/locked is greatly reduced.
+
+So, the older method of single return is not completely useless! And depending on the language and environment, quick-returns may not always be the best solution.
