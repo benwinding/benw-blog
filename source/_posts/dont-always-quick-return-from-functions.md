@@ -49,9 +49,9 @@ Now arguably the code can be made simpler by using the prophetic "Quick Return!"
 int GetCost(request) {
     if (!request.Important) 
         return 20;
-    if (!request.HasDiscount) 
+    else if (!request.HasDiscount) 
         return 14;
-    if (!request.IsMember) 
+    else if (!request.IsMember) 
         return 12;
     else
         return 10;
@@ -69,9 +69,9 @@ int GetCost(request) {
     int cost = 0;
     if (!checker.Important) 
         cost = 20;
-    if (!checker.HasDiscount) 
+    else if (!checker.HasDiscount) 
         cost = 14;
-    if (!checker.IsMember) 
+    else if (!checker.IsMember) 
         cost = 12;
     else 
         cost = 10;
