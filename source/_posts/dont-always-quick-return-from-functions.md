@@ -2,7 +2,8 @@
 title: Don't ALWAYS quick-return from functions
 published: true
 description: A brief look at the history behind the opposing styles of quick-return and single-return in functions.
-cover_image: https://i.imgur.com/IV0f3CX.jpg
+photos: 
+- https://i.imgur.com/IV0f3CX.jpg
 tags:
 - development
 - ssh
