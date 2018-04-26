@@ -11,7 +11,7 @@ tags:
 - dark-patterns
 ---
 
-The best part about visiting Hacker News is the minimalistic user interface that welcomes its users when they arrive. However this interface may have some devious advertisements hidden within them.
+Hacker News has a wonderful minimalistic user interface that welcomes its users when they arrive. However this interface may have some devious advertisements hidden within them.
 
 <!-- more --> 
 
