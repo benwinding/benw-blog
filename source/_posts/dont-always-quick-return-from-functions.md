@@ -2,6 +2,7 @@
 title: Don't ALWAYS quick-return from functions
 published: true
 description: A brief look at the history behind the opposing styles of quick-return and single-return in functions.
+date: 2018-04-19 20:27:28
 photos: 
 - https://i.imgur.com/IV0f3CX.jpg
 tags:
