@@ -1,7 +1,7 @@
 ---
 title: Discovering DELIVERY-ONLY pizza 
 description: Some businesses are recognizing that tradtional services may be redundant. We found this out the hard way, while ordering a pizza.
-date: 2018-05-10 19:23:45
+date: 2018-05-04 19:23:45
 photos: 
 - https://i.imgur.com/hBmCVRv.jpg
 - https://i.imgur.com/db2OC0u.png
@@ -40,8 +40,8 @@ After driving past it twice (It was raining, I'm dumb), I finally noticed that t
 
 It was weird that the small sign blocked the door (which was actually locked). But when I looked through the window I could see why. The entire Pizza Shop was actually just a big kitchen! So there was no room for customers to order or wait inside.
 
-So, I knocked on the door and a chef came up to window and started talking to me. They said they're entire business is online-based and that pickup was only a courtesy for some customers in apartments across the road. They apologized that I couldn't come in, but I happily waited on the street until my pizza was ready, then took it home to Ally.
+Well I knocked on the door and a chef came up to window and started talking to me. He said they're entire business is online-based and that pickup was only a courtesy for some customers in apartments in the area. They apologized that I couldn't come in, but I happily waited on the street until my pizza was ready, then took it home to Ally.
 
 This got me thinking about the motivation and model behind this business... 
 
-[Delivery-only food - Business Model Review]()
+Read more here: [Analysis of Delivery-only food - Business Model Review](/analysis-delivery-only-resturants/)

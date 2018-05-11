@@ -1,5 +1,5 @@
 ---
-title: Online-Only Food Businesses
+title: Analysis Of Delivery-Only Resturants
 description: Some businesses are recognizing that tradtional services may be redundant. We found this out the hard way, while ordering a pizza.
 date: 2018-05-11 06:55:10
 photos: 
@@ -14,7 +14,7 @@ tags:
 - rant
 ---
 
-As phones become more integrated into our lives, some businesses are recognizing that tradtional services may be redundant. We found this out the hard way, while ordering a pizza ...
+The fast-food industry has changed radically in the recent years to keep up with technology in people's pockets. Some resturants are recognizing that tradtional services such as _serving food_ may be redundant...
 
 <!-- more --> 
 
@@ -32,35 +32,7 @@ In my city - (Adelaide, Australia) - there are several new methods of ordering f
 Each provides a stream-lined way to order, pay and obtain food. However, a lot of these businesses themselves still provide services the old fashioned way, walk-in traffic.
  -->
 
-### Discovering the pizza store
-
-We recently ordered a pizza from a new pizza shop called *Hey Bianca*. My partner Ally discovered them online *(via Instagram cause we're hip!)*, she then ordered the pizza from their website. However she noticed that there was no phone number visible on the website, and know way to contact the store, which seemed a little strange. But they stated they do pickup, so I was intending to pick up the pizza on the way home from work.
-
-### Finding the store
-
-I looked at the website and at first glance, I was not able to easily find the location of this pizza store. This was pretty odd, as it was a modern website for a pizza store, and one of the main reasons you search a business up is to find it, right?
-
-<img src="https://i.imgur.com/db2OC0u.png" alt="Initial first glance at www.heybianca.co " style="max-width: 300px;"/>
-
-On a closer inspection, I found the location at the very bottom of the page. It was not highlighted and seemed as if it was placed there for legal reasons. This intrigued me, so I set off to find the Pizza Shop!
-
-<img src="https://i.imgur.com/kvA6BCR.png" alt="There's the address!" style="max-width: 300px;"/>
-
-### Spotting the store
-
-I remembered the highly branded advertisements we found on Instagram, so I looked for these logos on the street. Big pizza signs or lights, but I couldn't easily see the store. 
-
-After driving past it twice (It was raining, I'm dumb), I finally noticed that the pizza place was a tiny shop without any traditional signs.
-
-<img src="https://i.imgur.com/oamYRyN.png" alt="The store front, small sign not visible behind parked cars" style="max-width: 300px;"/>
-
-It was weird that the small sign blocked the door (which was actually locked). But when I looked through the window I could see why. The entire Pizza Shop was actually just a big kitchen! So there was no room for customers to order or wait inside.
-
-So, I knocked on the door and a chef came up to window and started talking to me. They said they're entire business is online-based and that pickup was only a courtesy for some customers in apartments across the road. They apologized that I couldn't come in, but I happily waited on the street until my pizza was ready, then took it home to Ally.
-
-# Analysis of the "Online-Only Food" Business Model
-
-Although I had to wait in the cold, I was impressed on the efficiency of the business. So I'm going to look at the business model in a little more detail to weigh up how good a 100% online food store could go. 
+An example of this business-model is _Bianca Pizza_ which is a small delivery-only resturant in Adelaide. [Last week When I discovered it](/discovering-delivery-only-pizza/), I was not to happy that I had to wait on the street for my pizza (as they had no room inside for customers), however I was impressed the efficiency of the business. So I'm going to look at the business model in a little more detail to determine if a delivery-only resturant is a suitable investment.
 
 ## Benefits
 There are many savings that I could spot in why this business model could be competitive against traditional fast food. Some of the benefits include:
