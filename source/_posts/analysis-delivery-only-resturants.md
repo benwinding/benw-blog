@@ -3,10 +3,8 @@ title: Analysis Of Delivery-Only Resturants
 description: Some businesses are recognizing that tradtional services may be redundant. We found this out the hard way, while ordering a pizza.
 date: 2018-05-11 06:55:10
 photos: 
+- https://i.imgur.com/Hl3kQEr.png
 - https://i.imgur.com/hBmCVRv.jpg
-- https://i.imgur.com/db2OC0u.png
-- https://i.imgur.com/kvA6BCR.png
-- https://i.imgur.com/oamYRyN.png
 tags:
 - business
 - models
@@ -18,21 +16,11 @@ The fast-food industry has changed radically in the recent years to keep up with
 
 <!-- more --> 
 
-<!-- 
-## The Rise of the Food Apps
-
-The fast food industry has dramatically changed in recent years. Many of the big players have increased development and promotion of their mobile apps and ordering systems. 
-
-In my city - (Adelaide, Australia) - there are several new methods of ordering food online:
-
-- Uber Eats - Food App - Released 2016
-- OTR - Coffee App - Released 2016
-- McDonalds - In Store Kiosk - Released 2016
-
-Each provides a stream-lined way to order, pay and obtain food. However, a lot of these businesses themselves still provide services the old fashioned way, walk-in traffic.
- -->
+Previously: [Discovering DELIVERY-ONLY pizza](/discovering-delivery-only-pizza/)
 
 An example of this business-model is _Bianca Pizza_ which is a small delivery-only resturant in Adelaide. [Last week When I discovered it](/discovering-delivery-only-pizza/), I was not to happy that I had to wait on the street for my pizza (as they had no room inside for customers), however I was impressed the efficiency of the business. So I'm going to look at the business model in a little more detail to determine if a delivery-only resturant is a suitable investment.
+
+<img src="https://i.imgur.com/oamYRyN.png" alt="An Example of Delivery-Only - Bianca Pizza" style="max-width: 300px;"/>
 
 ## Benefits
 There are many savings that I could spot in why this business model could be competitive against traditional fast food. Some of the benefits include:
@@ -47,6 +35,8 @@ There are many savings that I could spot in why this business model could be com
 | Cheaper locations | As all business is driven by online sales, the location is not as important as it isn't consumer facing. |
 
 These are huge savings for a business, which means they can pour more money into more important things LIKE THEIR PRODUCT! ... asside from focusing on making better pizzas, they can also spend more money on online advertising and web development too.
+
+<img src="https://i.imgur.com/Hl3kQEr.png" alt="If all you need is a kitchen, then you can save a lot of space in the resturant... is it still called a resturant?" style="max-width: 500px;"/>
 
 ## Risks
 This all sounds great right!? Well as with any business, it's important to analyze the risks, especially internet based businesses. And an online business has quite a few. Some risks include:
