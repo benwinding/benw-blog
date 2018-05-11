@@ -8,9 +8,10 @@ photos:
 - https://i.imgur.com/kvA6BCR.png
 - https://i.imgur.com/oamYRyN.png
 tags:
+- business
+- models
+- online-only
 - rant
-- hacker-news
-- dark-patterns
 ---
 
 As phones become more integrated into our lives, some businesses are recognizing that tradtional services may be redundant. We found this out the hard way, while ordering a pizza ...
