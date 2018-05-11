@@ -1,5 +1,5 @@
 ---
-title: Analysis Of Delivery-Only Resturants
+title: Analysis Of Delivery-Only Restaurants
 description: Some businesses are recognizing that tradtional services may be redundant. We found this out the hard way, while ordering a pizza.
 date: 2018-05-11 06:55:10
 photos: 
@@ -12,7 +12,7 @@ tags:
 - rant
 ---
 
-The fast-food industry has changed radically in the recent years to keep up with technology in people's pockets. Some resturants are recognizing that tradtional services such as _serving food_ may be redundant...
+The fast-food industry has changed radically in the recent years to keep up with technology in people's pockets. Some restaurants are recognizing that tradtional services such as _serving food_ may be redundant...
 
 <!-- more --> 
 

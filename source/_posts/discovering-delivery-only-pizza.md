@@ -44,4 +44,4 @@ Well I knocked on the door and a chef came up to window and started talking to m
 
 This got me thinking about the motivation and model behind this business... 
 
-Read more here: [Analysis of Delivery-only food - Business Model Review](/analysis-delivery-only-resturants/)
+Read more here: [Analysis of Delivery-only food - Business Model Review](/analysis-delivery-only-restaurants/)
