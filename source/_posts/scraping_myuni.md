@@ -22,6 +22,8 @@ So it was time to study for uni exams, this meant that I needed to revise the co
 
 ## Solution: Scrape it
 
+<!-- more --> 
+
 I read somewhere that automatically browsing and extracting information from webpages (web scraping) is a legally debateable subject. However, my reasoning is that the information I'm scraping is intended to be downloaded by me anyway, so I'm not breaking any rules. 
 
 So, I thought this would be a perfect opportunity to use scraping to solve the problem.
