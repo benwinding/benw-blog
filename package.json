@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "start": "node server.js",
+    "deploy": "gulp deploy",
     "build": "hexo generate",
     "drafts": "hexo server --drafts"
   },
@@ -31,6 +32,11 @@
     "hexo-tag-twitter": "^1.0.1"
   },
   "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-git": "^2.8.0",
+    "gulp-sequence": "^1.0.0",
+    "gulp-shell": "^0.6.5",
     "hexo-browsersync": "^0.3.0"
   }
 }
