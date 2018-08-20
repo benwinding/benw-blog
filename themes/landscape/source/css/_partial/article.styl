@@ -302,6 +302,14 @@ $article-share-link
     background: color-google
     text-shadow: 0 1px darken(color-google, 20%)
 
+.article-share-hn
+  @extend $article-share-link
+  &:before
+    content: "\f1d4"
+  &:hover
+    background: color-hn
+    text-shadow: 0 1px darken(color-hn, 20%)
+
 .article-gallery
   background: #000
   position: relative
