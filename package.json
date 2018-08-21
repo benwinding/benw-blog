@@ -2,7 +2,7 @@
   "name": "benwinding-blog",
   "version": "0.0.1",
   "scripts": {
-    "clean": "rm -rf public*",
+    "clean": "rm -rf public* && hexo clean",
     "start": "hexo server",
     "deploy": "gulp deploy",
     "build": "hexo generate",
