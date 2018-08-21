@@ -2,7 +2,8 @@
   "name": "benwinding-blog",
   "version": "0.0.1",
   "scripts": {
-    "start": "node server.js",
+    "clean": "rm -rf public*",
+    "start": "hexo server",
     "deploy": "gulp deploy",
     "build": "hexo generate",
     "drafts": "hexo server --drafts"
@@ -37,6 +38,7 @@
     "gulp-git": "^2.8.0",
     "gulp-sequence": "^1.0.0",
     "gulp-shell": "^0.6.5",
-    "hexo-browsersync": "^0.3.0"
+    "hexo-browsersync": "^0.3.0",
+    "hexo-generator-feed": "^1.2.2"
   }
 }

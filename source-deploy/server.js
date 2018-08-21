@@ -4,7 +4,7 @@ var http = require('http');
 var app = express();
 
 const content = require('./public/content.json')
-app.get('/feed', function(req, res) {
+app.get('/feed.json', function(req, res) {
   res.header("Access-Control-Allow-Origin", "*");
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
   res.send(content)
