@@ -30,7 +30,7 @@ So, I thought this would be a perfect opportunity to use scraping to solve the p
 
 ### Pseudo Code
 
-```
+``` c
 Begin;
 Authenticate(user, pass); // To Adelaide Uni;
 FetchHTML(course); // Read HTML for Canvas LMS course page;
@@ -41,10 +41,10 @@ for (current_link; isMoreLinks; next_link) {
     download(current_link);
   }
 } 
-
 Exit;
 ```
-![](https://i.imgur.com/mYTBGbU.png) ^ was made using: [https://code2flow.com](https://code2flow.com) 
+
+<img src="/images/code2flow_8d6de.svg" alt="Scraping MyUni - Program Flow" style="max-width: 700px;"/>
 
 ### Implementation
 So the implementation used a Python script which read the _userId, password, course_ as arguments then executed the program. The stack used was:
