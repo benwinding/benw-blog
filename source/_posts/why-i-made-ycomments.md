@@ -5,10 +5,10 @@ date: 2018-08-21 14:03:27
 photos: 
  - https://i.imgur.com/5wKAHHP.png
 tags:
-- business
-- models
-- online-only
-- rant
+- development
+- javascript
+- product
+- discussions
 ---
 
 After becoming fascinated (and addicted) to online discussions such as; Reddit and Hacker News, I saw there was a missing connection between the article and the discussion around the article.
