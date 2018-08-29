@@ -4,6 +4,8 @@ date: 2017-11-01 20:55:34
 tags:
 ---
 
+https://en.wikipedia.org/wiki/Fundamental_theorem_of_software_engineering
+
 **Abstraction** is one of the fundamental concepts of science and engineering. It is most highly valued in computer science and allows for communication of intent at different levels of responsibility.
 
 It can be confusing at first, especially since the word abstraction has connotations of obscurity, as seen in modern abstract art.
