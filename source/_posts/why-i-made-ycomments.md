@@ -79,7 +79,7 @@ End:
 Exit;
 ```
 
-<img src="/images/code2flow_b8262.svg" alt="YComments Program Flow" style="max-width: 700px;"/>
+<img src="/images/code2flow_b8262.svg" alt="YComments Program Flow" style="max-width: 500px; width: 100%;"/>
 
 # Challenges
 To dynamically request comments on a webpage, I discovered you needed to enable COR's (Cross Origin Requests) on the server end of the function. Luckily Hacker News has this enabled, however Reddit did not have this enabled, which meant you needed to use the limited API with authentication. So Reddit comments were not implemented.
