@@ -1,6 +1,8 @@
 ---
 title: The Glass Is Half Something
 date: 2018-08-29 13:54:39
+photos: 
+- https://i.imgur.com/XnuD19E.jpg
 tags: rant, philosophy
 ---
 
