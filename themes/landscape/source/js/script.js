@@ -112,6 +112,9 @@
     isMobileNavAnim = false,
     mobileNavAnimDuration = 200;
 
+  var $banner = $('#banner');
+  var $bannerFilter = $('#banner-filter');
+
   var startMobileNavAnim = function(){
     isMobileNavAnim = true;
   };
@@ -125,14 +128,19 @@
   $('#main-nav-toggle').on('click', function(){
     if (isMobileNavAnim) return;
 
-    startMobileNavAnim();
+    startMobileNavAnim()
     $container.toggleClass('mobile-nav-on');
-    stopMobileNavAnim();
+    $banner.toggleClass('banner-on');
+    $bannerFilter.toggleClass('banner-on');
+    stopMobileNavAnim()
   });
 
   $('#wrap').on('click', function(){
-    if (isMobileNavAnim || !$container.hasClass('mobile-nav-on')) return;
+    if (isMobileNavAnim) 
+      return;
 
-    $container.removeClass('mobile-nav-on');
+    $container.toggleClass('mobile-nav-on', false);
+    $banner.toggleClass('banner-on', false);
+    $bannerFilter.toggleClass('banner-on', false);
   });
 })(jQuery);

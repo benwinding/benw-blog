@@ -24,7 +24,8 @@
   overflow: hidden
 
 #banner
-  position: absolute
+  transition: left .2s;
+  position: fixed
   top: -110
   left: 0
   width: 100%
@@ -34,13 +35,17 @@
   z-index: -2
   
 #banner-filter
-  position: absolute
+  transition: left .2s;
+  position: fixed
   top: banner-height - banner-filter-height
   left: 0
   width: 100%
   height: banner-filter-height
   background: linear-gradient(transparent, color-backgroundBehind)
   z-index: -1
+
+.banner-on
+  left: mobile-nav-width !important
 
 #header-title
   text-align: center
