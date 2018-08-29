@@ -5,6 +5,8 @@ tags:
 - development
 - graphs
 - open-source
+photos:
+- https://i.imgur.com/4IBbw20.jpg
 ---
 
 Dear Internet,

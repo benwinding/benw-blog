@@ -6,6 +6,8 @@ tags:
 - ssh
 - deploy
 - node
+photos:
+- https://i.imgur.com/bPLuxuL.jpg
 ---
 
 The following tutorial shows the easiest way I've found to deploy pretty much any application to another machine!
