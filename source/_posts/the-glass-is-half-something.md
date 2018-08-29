@@ -3,7 +3,9 @@ title: The Glass Is Half Something
 date: 2018-08-29 13:54:39
 photos: 
 - https://i.imgur.com/XnuD19E.jpg
-tags: rant, philosophy
+tags: 
+- rant
+- philosophy
 ---
 
 A quote recently stood out to me today and revealed a deep misunderstanding about the classic the quote, "The glass is half full!".
