@@ -363,3 +363,39 @@ $article-gallery-ctrl
   &:before
     content: "\f054"
     right: 15px*/
+
+.embed-block
+  width: 100%
+
+  @media mq-normal
+    max-width: 500px
+    width: 60%
+    float: right
+    padding-left: 10px
+  
+  p, em
+    margin-top: 0
+    padding-top: 0
+    padding-bottom: 10px
+
+.embed-container
+  position relative
+  padding-bottom 56.25%
+  height 0
+  overflow hidden
+  max-width 100%
+
+.embed-container iframe, .embed-container object, .embed-container embed
+  position absolute
+  top 0
+  left 0
+  width 100%
+  height 100%
+  
+.img-full
+  width: 100%
+  max-width: 600px !important
+  
+.img-med
+  width: 100%
+  max-width: 400px !important
