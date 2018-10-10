@@ -63,7 +63,7 @@ gulp.task('run-build', shell.task(`cd ${conf.outputDir} && yarn && yarn start`))
 gulp.task('run-production', gulpSequence('build', 'run-build'));
 
 gulp.task('build', gulpSequence('clean', 'build-app', 'copy-build', 'copy-server'));
-gulp.task('deploy-build', gulpSequence('git-new', 'git-addRemote', 'git-add', 'git-commit', 'git-push'));
+gulp.task('deploy-build', gulpSequence('git-new', 'git-add', 'git-commit', 'git-addRemote', 'git-push'));
 
 gulp.task('deploy', gulpSequence('build', 'deploy-build'));
 
