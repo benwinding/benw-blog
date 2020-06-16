@@ -18,7 +18,7 @@ const run = (command, errorMessage, cwd) => {
 const conf = {
   buildSrcDir: "./public/*",
   outputDir: "./public-deploy",
-  serverSrcDir: "./source-deploy/**/*",
+  serverSrcDir: "./source-deploy/*",
   remoteBranch: "dokku",
   remoteUrl: "dokku@benwinding.com:blog",
 };
@@ -44,6 +44,9 @@ commander
   });
 
 function deployBuild() {
+  run(`rm -rf ${conf.outputDir}`);
+  run(`mkdir ${conf.outputDir}`);
+  run(`mkdir ${conf.outputDir}/public`);
   run(`cp -r ${conf.buildSrcDir} ${conf.outputDir + "/public"}`);
   run(`cp -r ${conf.serverSrcDir} ${conf.outputDir}`);
   function rund(command) {
