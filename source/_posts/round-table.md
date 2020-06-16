@@ -3,7 +3,7 @@ title: Round Coffee Table
 description: A small wood working project of a round table.
 date: 2020-06-14 20:38:00
 photos: 
-- https://i.imgur.com/9AfYXBa.jpg
+- https://i.imgur.com/1tHnfnQ.jpg
 tags:
 - project
 - table
@@ -76,7 +76,9 @@ Traced out the top holes. And glued it up.
 ### Done!
 
 ![](https://i.imgur.com/9AfYXBa.jpg)
-![](https://i.imgur.com/c6F7mCq.jpg)
+![](https://i.imgur.com/1tHnfnQ.jpg)
+![](https://i.imgur.com/Az7aLG1.jpg)
+![](https://i.imgur.com/oe68Dtt.jpg)
 
 Nice and grainy like an old film 👌
 
