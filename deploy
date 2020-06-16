@@ -2,8 +2,8 @@
 
 const commander = require("commander");
 const sh = require("shelljs");
-const run = (command, errorMessage) => {
-  const result = sh.exec(command);
+const run = (command, errorMessage, cwd) => {
+  const result = sh.exec(command, cwd ? {cwd} : undefined );
   const exitCode = result.code;
   if (exitCode !== 0) {
     throw `    
@@ -47,7 +47,7 @@ function deployBuild() {
   run(`cp -r ${conf.buildSrcDir} ${conf.outputDir + "/public"}`);
   run(`cp -r ${conf.serverSrcDir} ${conf.outputDir}`);
   function rund(command) {
-    sh.exec(command, { cwd: conf.outputDir });
+    run(command, 'Deploy build error', conf.outputDir);
   }
   rund("git init");
   rund("git add .");
