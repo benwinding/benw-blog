@@ -20,23 +20,19 @@ jobs:
         with:
           path: node_modules
           key: ${{ runner.OS }}-build-node_modules-${{ hashFiles('yarn.lock') }}
+      - name: Add SSH Key
+        uses: webfactory/ssh-agent@v0.3.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+      - name: Add SSH Key File
+        env:
+          PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+        run: echo $PRIVATE_KEY > .ssh/key.private
+      - name: SSH list apps
+        run: ssh -o "IdentitiesOnly=yes" -i .ssh/key.private -v root@benwinding.com dokku apps:list
       - name: Install Dependencies
         if: steps.cache-modules.outputs.cache-hit != 'true'
         run: yarn
-      - name: Setup SSH Keys and known_hosts
-        env:
-          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
-        run: |
-          mkdir -p ~/.ssh
-          ssh-keyscan github.com >> ~/.ssh/known_hosts
-          ssh-agent -a $SSH_AUTH_SOCK > /dev/null
-          ssh-add - <<< "${{ secrets.SSH_PRIVATE_KEY }}"
-      - name: SSH list apps
-        run: ssh -v root@benwinding.com dokku apps:list
-      # - name: Add SSH Key
-      #   uses: webfactory/ssh-agent@v0.3.0
-      #   with:
-      #     ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
       - name: Deploy to npm! 🚀 (if master branch)
         run: |
           git config --global user.email "action@github.com"
