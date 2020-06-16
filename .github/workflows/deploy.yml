@@ -29,7 +29,7 @@ jobs:
           echo "$SSH_PRIVATE_KEY" > ${{ github.workspace }}/.ssh/private.key
           sudo chmod 600 ${{ github.workspace }}/.ssh/private.key
           echo "$SSH_KNOWN_HOSTS" > ${{ github.workspace }}/.ssh/known_hosts
-          ssh -o "IdentitiesOnly=yes" -i "$SSH_KEY_PATH" -v root@benwinding.com dokku apps:list
+          ssh -o "IdentitiesOnly=yes" -i "${{ github.workspace }}/.ssh/private.key" -v root@benwinding.com dokku apps:list
         shell: bash
       - name: Install Dependencies
         if: steps.cache-modules.outputs.cache-hit != 'true'
