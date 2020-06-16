@@ -1,0 +1,30 @@
+on:
+  push:
+    branches:
+      - master
+name: "Deploy 🚀 Web"
+jobs:
+  build:
+    name: Build & Test
+    if: "!contains(github.event.head_commit.message, 'ci-build')"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js 10.17
+        uses: actions/setup-node@v1
+        with:
+          node-version: 10.17
+      - name: Cache node_modules
+        id: cache-modules
+        uses: actions/cache@v1
+        with:
+          path: node_modules
+          key: ${{ runner.OS }}-build-node_modules-${{ hashFiles('yarn.lock') }}
+      - name: Install Dependencies
+        if: steps.cache-modules.outputs.cache-hit != 'true'
+        run: yarn
+      - name: Deploy to npm! 🚀 (if master branch)
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          ./deploy blog

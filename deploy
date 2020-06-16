@@ -1,0 +1,60 @@
+#!/usr/bin/env node
+
+const commander = require("commander");
+const sh = require("shelljs");
+const run = (command, errorMessage) => {
+  const result = sh.exec(command);
+  const exitCode = result.code;
+  if (exitCode !== 0) {
+    throw `    
+     Error: ${errorMessage} (more info probably above)
+   command: "${command}"
+ exit code: ${exitCode} (should be 0)
+`;
+  }
+  return result;
+};
+
+const conf = {
+  buildSrcDir: "./public/**/*",
+  outputDir: "./public-deploy",
+  serverSrcDir: "./source-deploy/**/*",
+  remoteBranch: "dokku",
+  remoteUrl: "dokku@benwinding.com:blog",
+};
+
+commander
+  .command("blog")
+  .description("Deploys this library to npm")
+  .requiredOption(
+    "-v, --version <version>",
+    "Designate version: [<newversion> | major | minor | patch]",
+    "patch"
+  )
+  .action((options) => {
+    const version = options.version;
+    console.log("Deploying version: " + version);
+    run("git diff --exit-code", "You need to commit changes in git first");
+    run("yarn");
+    const npmVersion = run(`npm version ${version}`);
+    run(`git commit -am "ci-build: ${npmVersion}"`);
+    run(`NODE_ENV=production yarn build`);
+    deployBuild();
+    run(`git push origin ${npmVersion.trim()}`);
+    run("git push");
+  });
+
+function deployBuild() {
+  run(`cp -r ${conf.buildSrcDir} ${conf.outputDir + "/public"}`);
+  run(`cp -r ${conf.serverSrcDir} ${conf.outputDir}`);
+  function rund(command) {
+    sh.exec(command, { cwd: conf.outputDir });
+  }
+  rund("git init");
+  rund("git add .");
+  rund('git commit -am "Deploy"');
+  rund(`git remote add ${conf.remoteBranch} ${conf.remoteUrl}`);
+  rund(`git push -f ${conf.remoteBranch} master`);
+}
+
+commander.parse(process.argv);

@@ -18,10 +18,12 @@
     "express": "^4.17.1",
     "hexo": "^4.2.1",
     "hexo-admin": "^2.3.0",
+    "hexo-browsersync": "^0.3.0",
     "hexo-cli": "^3.1.0",
     "hexo-deployer-git": "^2.1.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
+    "hexo-generator-feed": "^2.2.0",
     "hexo-generator-index": "^1.0.0",
     "hexo-generator-json-content": "^4.2.3",
     "hexo-generator-tag": "^1.0.0",
@@ -33,12 +35,7 @@
     "hexo-tag-twitter": "^1.0.1"
   },
   "devDependencies": {
-    "del": "^5.1.0",
-    "gulp": "^3.9.1",
-    "gulp-git": "^2.10.1",
-    "gulp-sequence": "^1.0.0",
-    "gulp-shell": "^0.6.5",
-    "hexo-browsersync": "^0.3.0",
-    "hexo-generator-feed": "^2.2.0"
+    "commander": "^5.1.0",
+    "shelljs": "^0.8.4"
   }
 }
