@@ -37,7 +37,6 @@ commander
     run("git diff --exit-code", "You need to commit changes in git first");
     run("yarn");
     const npmVersion = run(`npm version ${version}`);
-    run(`git commit -am "ci-build: ${npmVersion}"`);
     run(`NODE_ENV=production yarn build`);
     deployBuild();
     run(`git push origin ${npmVersion.trim()}`);
