@@ -27,9 +27,9 @@ jobs:
       - name: Add SSH Key File
         env:
           PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-        run: echo $PRIVATE_KEY > .ssh/key.private
+        run: echo $PRIVATE_KEY > /home/runner/.ssh/key.private
       - name: SSH list apps
-        run: ssh -o "IdentitiesOnly=yes" -i .ssh/key.private -v root@benwinding.com dokku apps:list
+        run: ssh -o "IdentitiesOnly=yes" -i /home/runner/.ssh/key.private -v root@benwinding.com dokku apps:list
       - name: Install Dependencies
         if: steps.cache-modules.outputs.cache-hit != 'true'
         run: yarn
