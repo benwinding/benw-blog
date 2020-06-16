@@ -31,6 +31,8 @@ jobs:
           ssh-keyscan github.com >> ~/.ssh/known_hosts
           ssh-agent -a $SSH_AUTH_SOCK > /dev/null
           ssh-add - <<< "${{ secrets.SSH_PRIVATE_KEY }}"
+      - name: SSH list apps
+        run: ssh -v root@benwinding.com dokku apps:list
       # - name: Add SSH Key
       #   uses: webfactory/ssh-agent@v0.3.0
       #   with:
