@@ -23,10 +23,10 @@ jobs:
       - name: Install Dependencies
         if: steps.cache-modules.outputs.cache-hit != 'true'
         run: yarn
-      - name: Add SSH Key
-        uses: webfactory/ssh-agent@v0.3.0
+      - name: Install SSH key
+        uses: shimataro/ssh-key-action@v2
         with:
-          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
       - name: Deploy to npm! 🚀 (if master branch)
         run: |
           git config --global user.email "action@github.com"
