@@ -21,7 +21,7 @@ jobs:
           path: node_modules
           key: ${{ runner.OS }}-build-node_modules-${{ hashFiles('yarn.lock') }}
       - name: Add SSH Key
-        uses: webfactory/ssh-agent@v0.2.0
+        uses: webfactory/ssh-agent@v0.3.0
         with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
       - name: Install Dependencies
