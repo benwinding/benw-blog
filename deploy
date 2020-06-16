@@ -16,7 +16,7 @@ const run = (command, errorMessage, cwd) => {
 };
 
 const conf = {
-  buildSrcDir: "./public/**/*",
+  buildSrcDir: "./public/*",
   outputDir: "./public-deploy",
   serverSrcDir: "./source-deploy/**/*",
   remoteBranch: "dokku",
