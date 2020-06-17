@@ -10,7 +10,7 @@ tags:
 - green
 ---
 
-In 2006 Stefan Nyström invented the WaveReaper and released his plans online in 2008. This invention used parts of a bicycle to _reap_ energy from the ocean waves. It surprised me that not much has happened since then, so I thought I'd write a little about it.
+In 2006 Stefan Nyström invented the **WaveReaper** and released his plans online in 2008. This invention used parts of a bicycle to _reap_ energy from the ocean waves. It surprised me that not much has happened since then, so I thought I'd write a little about it.
 
 <!-- more -->
 
@@ -52,6 +52,8 @@ This is the most complex part of the system and is a axel based generate with a 
 The **slack-weights** are used to recover slack in the **bouy-lines** when the bouys are sinking in the bottom of waves. Then the bouys can pull up on a wave as the line the _one-way bearings_ allow the **slack-weights** to pull freely in one-direction and the **fly-wheel generator** to recover pulls in other direction.
 
 <img src="https://i.imgur.com/Uy2X7q0.gif" alt="Bouy dynamics" style="max-width: 14em; width: 100%;"/>
+
+<img src="https://i.imgur.com/CisdiXf.png" alt="Wave Power Locations" style="max-width: 14em; width: 100%;"/>
 
 # Cost Breakdown
 
