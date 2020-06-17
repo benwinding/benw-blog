@@ -23,15 +23,15 @@ jobs:
       - name: Install Dependencies
         if: steps.cache-modules.outputs.cache-hit != 'true'
         run: yarn
-      - name: Build and Release Version
+      - name: Install SSH key
+        uses: shimataro/ssh-key-action@v2
+        with:
+          name: id_rsa-target
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          config: |
+            IdentityFile ~/.ssh/id_rsa-target
+      - name: Build, Release & Deploy to Dokku! 🚀
         run: |
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
-          ./deploy blog --build-only
-      - name: Deploy to Dokku! 🚀 (if master branch)
-        uses: easingthemes/ssh-deploy@v2.0.7
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-          SOURCE: "public-deploy/"
-          REMOTE_HOST: benwinding.com:blog
-          REMOTE_USER: dokku
+          ./deploy blog
