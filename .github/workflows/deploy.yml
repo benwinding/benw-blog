@@ -20,17 +20,24 @@ jobs:
         with:
           path: node_modules
           key: ${{ runner.OS }}-build-node_modules-${{ hashFiles('yarn.lock') }}
-      - name: Create SSH key
-        env:
-          SSH_PRIVATE_KEY: ${{secrets.SSH_PRIVATE_KEY}}
-          SSH_KEY_PATH: ${{ github.workspace }}/.ssh/private.key
-        run: |
-          mkdir -p ${{ github.workspace }}/.ssh
-          echo "$SSH_PRIVATE_KEY" > ${{ github.workspace }}/.ssh/private.key
-          sudo chmod 600 ${{ github.workspace }}/.ssh/private.key
-          echo benwinding.com > ${{ github.workspace }}/.ssh/known_hosts
-          ssh -o "IdentitiesOnly=yes" -i "${{ github.workspace }}/.ssh/private.key" -v root@benwinding.com dokku apps:list
-        shell: bash
+      - name: executing remote ssh commands using ssh key
+        uses: appleboy/ssh-action@master
+        with:
+          host: benwinding.com
+          username: root
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: dokku apps:list
+      # - name: Create SSH key
+      #   env:
+      #     SSH_PRIVATE_KEY: ${{secrets.SSH_PRIVATE_KEY}}
+      #     SSH_KEY_PATH: ${{ github.workspace }}/.ssh/private.key
+      #   run: |
+      #     mkdir -p ${{ github.workspace }}/.ssh
+      #     echo "$SSH_PRIVATE_KEY" > ${{ github.workspace }}/.ssh/private.key
+      #     sudo chmod 600 ${{ github.workspace }}/.ssh/private.key
+      #     echo benwinding.com > ${{ github.workspace }}/.ssh/known_hosts
+      #     ssh -o "IdentitiesOnly=yes" -i "${{ github.workspace }}/.ssh/private.key" -v root@benwinding.com dokku apps:list
+      #   shell: bash
       - name: Install Dependencies
         if: steps.cache-modules.outputs.cache-hit != 'true'
         run: yarn
