@@ -29,9 +29,9 @@ jobs:
           git config --global user.name "GitHub Action"
           ./deploy blog --build-only
       - name: Deploy to Staging server
-          uses: easingthemes/ssh-deploy@v2.0.7
-          env:
-            SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-            SOURCE: "public-deploy/"
-            REMOTE_HOST: benwinding.com:blog
-            REMOTE_USER: dokku
+        uses: easingthemes/ssh-deploy@v2.0.7
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          SOURCE: "public-deploy/"
+          REMOTE_HOST: benwinding.com:blog
+          REMOTE_USER: dokku
