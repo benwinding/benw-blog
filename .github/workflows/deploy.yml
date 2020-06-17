@@ -23,12 +23,12 @@ jobs:
       - name: Install Dependencies
         if: steps.cache-modules.outputs.cache-hit != 'true'
         run: yarn
-      - name: Deploy to npm! 🚀 (if master branch)
+      - name: Build and Release Version
         run: |
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
           ./deploy blog --build-only
-      - name: Deploy to Staging server
+      - name: Deploy to Dokku! 🚀 (if master branch)
         uses: easingthemes/ssh-deploy@v2.0.7
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
