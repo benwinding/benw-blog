@@ -28,6 +28,7 @@ jobs:
         with:
           name: id_rsa-target
           key: ${{ secrets.SSH_PRIVATE_KEY }}
+          known_hosts: ${{ secrets.SSH_KNOWN_HOSTS }}
           config: |
             IdentityFile ~/.ssh/id_rsa-target
       - name: Build, Release & Deploy to Dokku! 🚀
