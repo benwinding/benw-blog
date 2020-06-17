@@ -3,7 +3,7 @@
 const commander = require("commander");
 const sh = require("shelljs");
 const run = (command, errorMessage, cwd) => {
-  const result = sh.exec(command, cwd ? {cwd} : undefined );
+  const result = sh.exec(command, cwd ? { cwd } : undefined);
   const exitCode = result.code;
   if (exitCode !== 0) {
     throw `    
@@ -31,6 +31,7 @@ commander
     "Designate version: [<newversion> | major | minor | patch]",
     "patch"
   )
+  .option("--build-only", "Don't use git deploy")
   .action((options) => {
     const version = options.version;
     console.log("Deploying version: " + version);
@@ -38,19 +39,26 @@ commander
     run("yarn");
     const npmVersion = run(`npm version ${version}`);
     run(`NODE_ENV=production yarn build`);
-    deployBuild();
+    runBuild();
+    if (!options.buildOnly) {
+      console.log("Deploying version: " + version);
+      runDeploy();
+    }
     run(`git push origin ${npmVersion.trim()}`);
     run("git push");
   });
 
-function deployBuild() {
+function runBuild() {
   run(`rm -rf ${conf.outputDir}`);
   run(`mkdir ${conf.outputDir}`);
   run(`mkdir ${conf.outputDir}/public`);
   run(`cp -r ${conf.buildSrcDir} ${conf.outputDir + "/public"}`);
   run(`cp -r ${conf.serverSrcDir} ${conf.outputDir}`);
+}
+
+function runDeploy() {
   function rund(command) {
-    run(command, 'Deploy build error', conf.outputDir);
+    run(command, "Deploy build error", conf.outputDir);
   }
   rund("git init");
   rund("git add .");
