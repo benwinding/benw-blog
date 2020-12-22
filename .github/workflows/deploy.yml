@@ -2,11 +2,11 @@ on:
   push:
     branches:
       - master
+
 name: "Deploy 🚀 Web"
 jobs:
   build:
-    name: Build & Test
-    if: "!contains(github.event.head_commit.message, 'ci-build')"
+    name: Build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -20,22 +20,15 @@ jobs:
         with:
           path: node_modules
           key: ${{ runner.OS }}-build-node_modules-${{ hashFiles('yarn.lock') }}
-      - name: Create SSH key
-        env:
-          SSH_PRIVATE_KEY: ${{secrets.SSH_PRIVATE_KEY}}
-          SSH_KEY_PATH: ${{ github.workspace }}/.ssh/private.key
-        run: |
-          mkdir -p ${{ github.workspace }}/.ssh
-          echo "$SSH_PRIVATE_KEY" > ${{ github.workspace }}/.ssh/private.key
-          sudo chmod 600 ${{ github.workspace }}/.ssh/private.key
-          echo benwinding.com > ${{ github.workspace }}/.ssh/known_hosts
-          ssh -o "IdentitiesOnly=yes" -i "${{ github.workspace }}/.ssh/private.key" -v root@benwinding.com dokku apps:list
-        shell: bash
+      - name: Add SSH Key
+        uses: webfactory/ssh-agent@v0.4.1
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
       - name: Install Dependencies
         if: steps.cache-modules.outputs.cache-hit != 'true'
         run: yarn
       - name: Deploy to npm! 🚀 (if master branch)
         run: |
-          git config --global user.email "action@github.com"
-          git config --global user.name "GitHub Action"
-          ./deploy blog
+          yarn build 
+          yarn copy-feed 
+          yarn deploy
