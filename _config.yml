@@ -106,3 +106,9 @@ jsonContent:
     excerpt: true
     categories: false
     tags: false
+
+lazyload:
+  enable: true
+  onlypost: true # optional
+  loadingImg: # optional eg ./images/loading.gif
+  isSPA: false # optional

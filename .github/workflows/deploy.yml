@@ -27,7 +27,7 @@ jobs:
       - name: Install Dependencies
         if: steps.cache-modules.outputs.cache-hit != 'true'
         run: yarn
-      - name: Deploy to npm! 🚀 (if master branch)
+      - name: Build, Release & Deploy to Dokku! 🚀
         run: |
           yarn build 
           yarn copy-feed 
