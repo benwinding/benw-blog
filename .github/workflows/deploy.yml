@@ -32,6 +32,8 @@ jobs:
         if: steps.cache-modules.outputs.cache-hit != 'true'
         run: yarn
       - name: Build, Release & Deploy to Dokku! 🚀
+        env:
+          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
         run: |
           yarn build 
           yarn copy-feed 
