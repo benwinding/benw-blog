@@ -23,9 +23,9 @@ One of the earliest instances of this expression can be found in this television
 <em>Vintage Peace Corps PSA - Glass Half Full</em>
 </div>
 
-This quote is quite powerful but shallow way to divide postive and negative outlooks on life. This expression was once inciteful, but has burried itself deep into popular culture that it's now annoying.
+This quote is quite powerful but can be a shallow way to divide positive and negative outlooks on life. This expression was once inciteful, but has buried itself deep into popular culture that it's now annoying.
 
-## Alernative Quotes
+## Alternative Quotes
 
 So, I recently glanced at a quote that struck me as a very concise way to bridge the two perspectives on life, rather than divide them.
 
@@ -69,4 +69,4 @@ else
 
 <img src="/images/code2flow_845e1.svg" alt="Understanding that this world is the best is pessimistic" class="img-med"/>
 
-This just struck me and I wanted to write about it. I'm interested in anyone elses opinion though?
+This just struck me and I wanted to write about it. I'm interested if you have any thoughts on this too.
