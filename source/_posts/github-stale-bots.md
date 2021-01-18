@@ -1,5 +1,5 @@
 ---
-title: "Github Stale Bots: A False Ecconomy"
+title: "Github Stale Bots: A False Economy"
 date: 2021-01-17 10:15:11
 photos: 
 - https://i.imgur.com/OOBT9Ta.png
@@ -9,13 +9,13 @@ tags:
 - stale bot
 ---
 
-Stale Bot's are a type of automated bot on Github, which locks issues which are "stale" (as in have no recent activity). This seems like a helpful tool at first, but in reality it's terrible for all parties involved.
+*Stale Bot's* are a type of automated bot on Github, which locks issues which are "stale" (as in have no recent activity). This seems like a helpful tool at first, but in reality it's terrible for all parties involved.
 
 <!-- more -->
 
 # Example: The Angular Repo
 
-[Angular has a popular repository](https://github.com/angular/angular/issues) on github which recieves hundreds of issues every day. They use the stale bot to lock old issues, which have no activity in order to reduce the amount of issues in the repository. On the surface the Stale Bot is doing great work, reducing the number of active issues in the repo, but in reality it's a bit insane.
+[Angular has a popular repository](https://github.com/angular/angular/issues) on github which receives hundreds of issues every day. They use the stale bot to lock old issues, which have no activity in order to reduce the amount of issues in the repository. On the surface the Stale Bot is doing great work, reducing the number of active issues in the repo, but in reality it's a bit insane.
 
 ## Maintainer's perspective
 
@@ -36,7 +36,7 @@ Well the stale bot has had the following effects on the repository:
 
 # Devil's Advocate
 
-For a moment, imagine that Stack Overflow did this. If there's no interaction on a question, then the question should be locked... Well questions that don't get consistent interaction are enivitably duplicated, or not updated with correct information, or people get frustrated and don't ask the question again.
+For a moment, imagine that Stack Overflow did this. If there's no interaction on a question, then the question should be locked... Well questions that don't get consistent interaction are inevitably duplicated, or not updated with correct information, or people get frustrated and don't ask the question again.
 
 # Conclusion
 
