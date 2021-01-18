@@ -23,10 +23,21 @@ Issues are being automatically locked, new users can't add to issue so they crea
 
 ## User's perspective
 
-A user searches for the bug they have. They find the bug but the issue has been locked, so they either create another issue, effectively duplicating the bug and often not link it to the original. Now there are 2 issues duplicating the same bug, so what did "Stale Bot" achieve?
+A user of Angular will *Google* the error text and will usually find the corresponding github issue. But more often than not, the issue is locked, by the heroic *lock bot*. So they have a few options, continue searching for another more recent (less SEO'd issue) OR either create another issue, effectively duplicating the bug.
 
-The only benefit to the repo maintainer is that they are reducing the number of *Open* issues. But this also has the effect of making users recreate issues that already exist but are locked, making duplicate bugs in the repo...
+If they decide to create a duplicate issue, it will often not be linked it to the original issue... Now there are 2 issues duplicating the same bug in the Angular repo, so what did "Stale Bot" achieve?
+
+Well the stale bot has had the following effects on the repository:
+
+1. Reduce the metric of *Open Issues* in github
+2. Made duplicate issues far more likely
+3. Increased friction of users reporting that the issue still exists
+4. Ultimately decreased the quality of the software, as the issues don't accurately reflect reality
+
+# Devil's Advocate
+
+For a moment, imagine that Stack Overflow did this. If there's no interaction on a question, then the question should be locked... Well questions that don't get consistent interaction are enivitably duplicated, or not updated with correct information, or people get frustrated and don't ask the question again.
 
 # Conclusion
 
-The best repo's in my opinion, don't prevent users from adding to older issues. This gives a much better experience and prevents duplicates and reduce friction of adding information to bugs.
+The best repo's in my opinion, don't prevent users from contributing to older issues. This gives a much better user experience, as friction to contribute to issues is much lower. It also lets the maintainers ensure that old issues aren't needlessly duplicated. Finally, the community feels like the maintainers actually care about their input, which doesn't feel that way when an automated *stale bot* locks and closes your inactive issue without any input from a human...
