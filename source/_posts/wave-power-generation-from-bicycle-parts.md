@@ -10,7 +10,7 @@ tags:
 - green
 ---
 
-In 2006 Stefan Nyström invented the **WaveReaper** and released his plans online in 2008. This invention used parts of a bicycle to _reap_ energy from the ocean waves. It surprised me that not much has happened since then, so I thought I'd write a little about it.
+In 2006 [1] Stefan Nyström invented the [2] **WaveReaper** and released his plans online in 2008. This invention used parts of a bicycle to _reap_ energy from the ocean waves. It surprised me that not much has happened since then (and the website is [4] no longer up), so I thought I'd write a little about it.
 
 <!-- more -->
 
@@ -53,17 +53,24 @@ The **slack-weights** are used to recover slack in the **bouy-lines** when the b
 
 <img src="https://i.imgur.com/Uy2X7q0.gif" alt="Bouy dynamics" style="max-width: 14em; width: 100%;"/>
 
-<img src="https://i.imgur.com/CisdiXf.png" alt="Wave Power Locations" style="max-width: 14em; width: 100%;"/>
 
 # Cost Breakdown
 
-| Item | New Cost |
-| ---- | ---- | ----- | 
+| Item | Cost |
+| ---- | ---- | 
 | **1. Bouys** | $100 |  
 | **2. Bouy Lines** | $100 |
 | **3. Sea Pully** | $100 |
 | **4. Fly Wheel Generator** | $100 |
 | **5. Slack Weights** | $100 |
+
+# Proposed Areas
+
+There's many parts of the world, which could utilise wave energy. But wave power has been measured and is on average most effective furthur away from the equator.
+
+<img src="https://i.imgur.com/CisdiXf.png" alt="Wave Power Locations" style="max-width: 25em; width: 100%;"/>
+
+[3] Wave Energy Visualized
 
 # Advantages
 There are many advantages of using this invention to generate electricity:
@@ -72,3 +79,13 @@ There are many advantages of using this invention to generate electricity:
 - It's simple design, allows easier procurement and maintanence.
 - The one-way bearings can be sourced any bicycle.
 - The spindle-driven generator can easily be extracted from many existing machines.
+
+# References
+
+[1] Article:WaveReaper and Stefan Nystrom, https://peswiki.com/article:wavereaper-and-stefan-nystrom
+
+[2] Directory:WaveReaper, https://peswiki.com/directory:wavereaper
+
+[3] Boehlert, G., Gregory R. McMurray and C. E. Tortorici. “Ecological effects of wave energy development in the Pacific Northwest : a scientific workshop, October 11-12, 2007.” (2008).
+
+[4] Original Wave Reaper Website, https://web.archive.org/web/20200220070700/http://circuminvent.com:80/wavereaper/
