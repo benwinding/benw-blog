@@ -5,7 +5,8 @@ date: 2019-01-06 01:19:02
 photos: 
 - https://i.imgur.com/vCeK3ZY.png
 tags:
-- rant
+- energy
+- diy
 - wavepower
 - green
 ---
@@ -32,41 +33,45 @@ The WaveReaper is an invention that generates electricity from the motion of the
 # System Design
 This system is broken down into 5 main parts which; when combined provide a cheap solution, utilising resources easily obtainable in developing parts of the world.
 
-## 1. Bouys
-The systems reach begins in the water. Bouys are used in the water to provide the force to generate power. Barrels are intended, but actually anything bouant could be used, as long as it's bouyant and durable.
+## 1. Buoys
+The systems reach begins in the water. Buoys are used in the water to provide the force to generate power. Barrels are intended, but actually anything buoyant could be used, as long as it's buoyant and durable.
 
-<img src="https://i.imgur.com/0ZNnHuS.gif" alt="Bouy dynamics" style="max-width: 16em; width: 100%;"/>
+<img src="https://i.imgur.com/0ZNnHuS.gif" alt="Buoy dynamics" style="max-width: 16em; width: 100%;"/>
 
-## 2. Bouy Lines
-The bouy's are connected to **bouy-lines** which run back to shore. These lines are intended to be strong wires, but non-stretch rope could also be used.
+## 2. Buoy Lines
+The buoy's are connected to **buoy-lines** which run back to shore. These lines are intended to be strong wires, but non-stretch rope could also be used.
 
 ## 3. Sea Pully
-For the system to get the maximum force from the vertical motion of the waves, the pully needs to be located underwater. This means the bouy's will pull the **bouy-lines** upward against the pully below. The pully is attached to something heavy in the water and is made from rust resistant materials.
+For the system to get the maximum force from the vertical motion of the waves, the pully needs to be located underwater. This means the buoy's will pull the **buoy-lines** upward against the pully below. The pully is attached to something heavy in the water and is made from rust resistant materials.
 
 <img src="https://i.imgur.com/pdpMngb.gif" alt="Sea-pully " style="max-width: 16em; width: 100%;"/>
 
 ## 4. Fly Wheel Generator
-This is the most complex part of the system and is a axel based generate with a fly wheel to even out the power output. As a bouy floats up and down, it pulls on a _one-way bearing_ which turns the fly wheel for the motor. 
+This is the most complex part of the system and is a axel based generate with a fly wheel to even out the power output. As a buoy floats up and down, it pulls on a _one-way bearing_ which turns the fly wheel for the motor. 
 
 ## 5. Slack Weights
-The **slack-weights** are used to recover slack in the **bouy-lines** when the bouys are sinking in the bottom of waves. Then the bouys can pull up on a wave as the line the _one-way bearings_ allow the **slack-weights** to pull freely in one-direction and the **fly-wheel generator** to recover pulls in other direction.
+The **slack-weights** are used to recover slack in the **buoy-lines** when the buoys are sinking in the bottom of waves. Then the buoys can pull up on a wave as the line the _one-way bearings_ allow the **slack-weights** to pull freely in one-direction and the **fly-wheel generator** to recover pulls in other direction.
 
-<img src="https://i.imgur.com/Uy2X7q0.gif" alt="Bouy dynamics" style="max-width: 14em; width: 100%;"/>
+<img src="https://i.imgur.com/Uy2X7q0.gif" alt="Buoy dynamics" style="max-width: 14em; width: 100%;"/>
 
 
 # Cost Breakdown
 
-| Item | Cost |
+The brilliance of this invention is that all parts can be source from common household items and some old machinery.
+
+| Item | Scavenge |
 | ---- | ---- | 
-| **1. Bouys** | $100 |  
-| **2. Bouy Lines** | $100 |
-| **3. Sea Pully** | $100 |
-| **4. Fly Wheel Generator** | $100 |
-| **5. Slack Weights** | $100 |
+| **1. Buoys** | Anything with buoyancy, bottles, containers |  
+| **2. Buoy Lines** | Rope or greased wire |
+| **3.1 Sea Pully** | Constructed from wheel barrow wheels |
+| **3.2 Sea Anchor** | A concrete block or barrel filled with rocks  |
+| **4.1 Fly Wheel** | A heavy wheel, can be source from car wheels |
+| **4.2 Electrical Generator** | Can be sourced from many machiens including; washing machine, vaccum cleaner |
+| **5. Slack Weights** | Heavy bits of metal |
 
-# Proposed Areas
+# Effective Placement
 
-There's many parts of the world, which could utilise wave energy. But wave power has been measured and is on average most effective furthur away from the equator.
+There's many parts of the world, which could utilise wave energy. But wave power has been measured and is on average most effective further away from the equator.
 
 <img src="https://i.imgur.com/CisdiXf.png" alt="Wave Power Locations" style="max-width: 25em; width: 100%;"/>
 
@@ -75,10 +80,26 @@ There's many parts of the world, which could utilise wave energy. But wave power
 # Advantages
 There are many advantages of using this invention to generate electricity:
 
-- Wave energy doesn't directly depend on sunlight. Therefore it can potentially generate electricity 24/7
-- It's simple design, allows easier procurement and maintanence.
-- The one-way bearings can be sourced any bicycle.
-- The spindle-driven generator can easily be extracted from many existing machines.
+- Wave energy doesn't directly depend on sunlight/wind. Therefore it can potentially generate electricity 24/7
+- It's simple design, allows easier procurement and maintenance.
+- The one-way bearings can be sourced on any bicycle.
+- The spindle-driven generator can easily be extracted from many existing electrical machines like a vacuum cleaner.
+- Can incrementally increase power, by adding more buoys. 
+
+# Disadvantages
+
+There are a few disadvantages which should also be considered:
+
+- Having an exposed oscillating line heading out into the waves could be problematic.
+- There may be negative environmental effects on having this in the water.
+- Rust and corrosion is an ongoing problem
+- Steady power is not guaranteed.
+
+# Conclusion
+
+Personally, I think this is a great invention. It solves the problem effectively and components are easily sourced, making it an ideal way to generate power in developing countries. 
+
+What are your thoughts on the invention?
 
 # References
 
