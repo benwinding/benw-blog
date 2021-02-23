@@ -5,7 +5,7 @@
     "clean": "rm -rf public* && hexo clean",
     "start": "hexo server",
     "copy-feed": "cp ./public/content.json ./public/feed.json",
-    "deploy": "dokku-pages deploy -g dokku@benwinding.com:blog -d public/ --minimal --allow-cors 'https://benwinding.com'",
+    "deploy": "dokku-pages deploy -g dokku@benwinding.com:blog -d public/ --minimal --allow-cors 'https://benwinding.com|localhost:3000'",
     "build": "hexo generate",
     "drafts": "hexo server --drafts"
   },
@@ -38,6 +38,6 @@
     "hexo-tag-twitter": "^1.0.1"
   },
   "devDependencies": {
-    "dokku-pages": "^1.0.4"
+    "dokku-pages": "^1.0.7"
   }
 }
