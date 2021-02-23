@@ -38,5 +38,4 @@ jobs:
       - name: Deploy to Dokku! 🚀
         run: |
           yarn build 
-          yarn copy-feed 
           yarn deploy
