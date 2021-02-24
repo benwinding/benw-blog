@@ -38,6 +38,6 @@
     "hexo-tag-twitter": "^1.0.1"
   },
   "devDependencies": {
-    "dokku-pages": "^1.0.7"
+    "dokku-pages": "^1.0.8"
   }
 }
