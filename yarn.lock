@@ -1435,10 +1435,10 @@ diffie-hellman@^5.0.0:
     miller-rabin "^4.0.0"
     randombytes "^2.0.0"
 
-dokku-pages@^1.0.7:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/dokku-pages/-/dokku-pages-1.0.7.tgz#0becd4fd471a8481b0765b066ca3060d558cc2a1"
-  integrity sha512-Ffj9gpxOBox0YSSJfC39EKUDX+OhKgdVnb4hauWcuHEI3oGm6hCEZYFaIdEeMB8VV2cDq0FOupNAkfxzzy+xKw==
+dokku-pages@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/dokku-pages/-/dokku-pages-1.0.8.tgz#e6d240cf67e2e2c34407d00af455247bfcb88c7e"
+  integrity sha512-6DyCOnOrXDm3LbGYN4o2mHOihXY/9iwmylhvQ1u77M3M7mfilEiX1hbYkEpxLFig7az7RDpveuob2qjBV1TH+w==
   dependencies:
     chalk "^4.1.0"
     commander "5.x"

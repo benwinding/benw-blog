@@ -5,7 +5,7 @@
     "clean": "rm -rf public* && hexo clean",
     "start": "hexo server",
     "copy-feed": "cp ./public/content.json ./public/feed.json",
-    "deploy": "dokku-pages deploy -g dokku@benwinding.com:blog -d public/ --minimal --allow-cors 'benwinding.com|localhost:3000'",
+    "deploy": "dokku-pages deploy -g dokku@benwinding.com:blog -d public/ --minimal --allow-cors '*'",
     "build": "hexo generate && npm run copy-feed",
     "drafts": "hexo server --drafts"
   },
