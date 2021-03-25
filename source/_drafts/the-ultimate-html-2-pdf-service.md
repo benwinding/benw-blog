@@ -16,7 +16,17 @@ Reporting is a common business problem that most software problems inevitably ne
 
 <!-- more --> 
 
-# v1 - App Engine (Python & WebKit)
+# v1 - In Browser Solution (Python & WebKit)
+
+Naively we originally thought we could simply convert the HTML to PDF's from within the browser using [html2pdf](https://github.com/spipu/html2pdf). 
+
+## Limitation: Slow, Large Output File Size
+
+- Bad on mobile devices
+- Large output files as everything was rasterized into an image
+- Poor resolution for text too.
+
+# v2 - App Engine (Python & WebKit)
 
 Initially we went with a Google App Engine instance, which ran a small Python script. It simply listened for HTML requests and return a PDF response. 
 
@@ -26,7 +36,7 @@ Initially we went with a Google App Engine instance, which ran a small Python sc
 
 - Only compatible with CSS 2, cannot use modern layout features like flexbox and grid layout.
 
-# v2 - App Engine (NodeJs & Puppeteer)
+# v3 - App Engine (NodeJs & Puppeteer)
 
 The second version was implemented in NodeJs and Puppeteer, which meant we could use the same CSS in the browser and get predictable results. It was still lacking in other areas and we
 
@@ -34,7 +44,7 @@ The second version was implemented in NodeJs and Puppeteer, which meant we could
 
 - Google App Engine only scales to a minimum of 1 instance (costly).
 
-# v3 - Cloud Run (NodeJs & Puppeteer)
+# v4 - Cloud Run (NodeJs & Puppeteer)
 
 We noticed that Google released Cloud Run, which is a simple container platform, which scales to 0 instances! So we implemented our html to pdf converter in Docker and deployed to Cloud Run! This drastically reduced costs by around 98%! As it could scale to 0 when not in use.
 
@@ -42,7 +52,7 @@ We noticed that Google released Cloud Run, which is a simple container platform,
 
 - Slow and unreliable, due to concurrent conversions and varying image sizes.
 
-# v4 - Cloud Run (NodeJs, Puppeteer & SharpJs)
+# v5 - Cloud Run (NodeJs, Puppeteer & SharpJs)
 
 The last problem we solved was unpredictable conversion times. We determined that bandwidth was a bottleneck when there were hundreds of images in a report. It would also vary drastically depending on the download size of the images.
 
