@@ -1,0 +1,4 @@
+- Tried to use CI commit version number to git, but had issues
+- Much better to use tagging or not commit version number at all
+- Using git commit hash in build
+- Builds easily rollbackable
