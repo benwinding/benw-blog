@@ -3,6 +3,7 @@ title: Bug Driven Development - Sometimes it's the best choice
 description: BDD or Bug Driven Development is controversial, but sometimes it's appropriate
 date: 2022-04-21 18:18:20
 photos: 
+- https://i.imgur.com/W6FBoWC.jpg
 tags:
 - development
 - software
@@ -10,6 +11,8 @@ tags:
 ---
 
 Tests are great, they catch errors before release and verify that the code does what it says it does. However the TDD (Test Driven Development) way of doing things is to write the tests ***before*** the implementation of the feature. Which has several drawbacks:
+
+<!-- more -->
 
 - You're writing tests for a feature, before even validating that the feature is useful for your users
 - It requires a detailed specification of the feature and it's behavior in order to design the tests against, meaning more planning
