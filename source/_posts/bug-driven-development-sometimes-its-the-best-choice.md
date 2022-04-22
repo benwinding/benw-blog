@@ -20,7 +20,7 @@ Tests are great, they catch errors before release and verify that the code does 
 
 And look at this graph, and how it resembles a waterfall, doesn't look very agile, right?
 
-![Test Driven Development - Development Cycles](https://static.swimlanes.io/541e4b296d6f0f349b8fb37c26e4e430.png)
+![Test Driven Development - Development Cycles](https://i.imgur.com/9pl0k0F.png)
 <!-- https://swimlanes.io/u/408ujM0Oc -->
 
 ## Bug Driven Development
@@ -29,7 +29,7 @@ In this paradigm you develop the feature in the most MVP way possible, release i
 
 Notice how the initial *Feature Development Cycle* is much tighter... and agile! 
 
-![Bug Driven Development - Development Cycles](https://static.swimlanes.io/b2411d4ef53e7ac26fa1eb9a4bbc7d36.png)
+![Bug Driven Development - Development Cycles](https://i.imgur.com/qxiWA62.png)
 <!-- https://swimlanes.io/u/m499GMjd5 -->
 
 - Bugs can be reported internally by testers or externally by annoyed users.
