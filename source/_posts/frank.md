@@ -29,10 +29,15 @@ Frank was determined but empathetic, he would love playing tug of war with other
 Frank was attentive and clever, he'd constantly be looking at your face trying to understand commands and emotion in order to get a treat.
 > He taught me that listening to someone and reading their emotions is an important part of intelligence and dealing with other people.
 
-He was special to me, but these lessons aren't exclusive to Frank. Love your pets, but more importantly learn from them.
+He was special to me, but these lessons aren't exclusive to Frank.
 
-- Birth: October 13, 2018
-- Death: June 19, 2022
+Love your pets... but more importantly learn from them.
+
+```
+Goodbye Frank
+October 13, 2018 - June 19, 2022
+```
+## Photos
 
 <!-- imgur album https://imgur.com/a/Y4QMTc7 -->
 
@@ -116,17 +121,43 @@ He was special to me, but these lessons aren't exclusive to Frank. Love your pet
 
 ![Majestically smelling the country side](https://i.imgur.com/XHOMVRs.jpg)
 
+## Videos
 
-0: "https://i.imgur.com/zJFTdxg.mp4"
-1: "https://i.imgur.com/yNA5xxI.mp4"
-2: "https://i.imgur.com/MT6yaeu.mp4"
-3: "https://i.imgur.com/i85sUiZ.mp4"
-4: "https://i.imgur.com/axSQUV8.mp4"
-5: "https://i.imgur.com/FU8DY0I.mp4"
-6: "https://i.imgur.com/lLrMrht.mp4"
-7: "https://i.imgur.com/AMukLLB.mp4"
-8: "https://i.imgur.com/4NBvRuu.mp4"
-9: "https://i.imgur.com/Kvt1DuQ.mp4"
-10: "https://i.imgur.com/zKvZQvl.mp4"
-11: "https://i.imgur.com/xK2mZFL.mp4"
-12: "https://i.imgur.com/YYmcIat.mp4"
+Dancing to "Crab Rave"
+<video width="500" controls><source src="https://i.imgur.com/zJFTdxg.mp4" type="video/mp4"></video>
+
+Chewing dangly things in the backyard
+<video width="500" controls><source src="https://i.imgur.com/yNA5xxI.mp4" type="video/mp4"></video>
+
+Head banging to metal music
+<video width="500" controls><source src="https://i.imgur.com/MT6yaeu.mp4" type="video/mp4"></video>
+
+Running next to me kiteboarding
+<video width="500" controls><source src="https://i.imgur.com/i85sUiZ.mp4" type="video/mp4"></video>
+
+Getting treats because he was a good boy
+<video width="500" controls><source src="https://i.imgur.com/axSQUV8.mp4" type="video/mp4"></video>
+
+Hacking the mainframe!
+<video width="500" controls><source src="https://i.imgur.com/FU8DY0I.mp4" type="video/mp4"></video>
+
+Super slow mo running
+<video width="500" controls><source src="https://i.imgur.com/lLrMrht.mp4" type="video/mp4"></video>
+
+Running in circles, but enjoying the ride
+<video width="500" controls><source src="https://i.imgur.com/AMukLLB.mp4" type="video/mp4"></video>
+
+More head banging!
+<video width="500" controls><source src="https://i.imgur.com/4NBvRuu.mp4" type="video/mp4"></video>
+
+Exhausted at the park
+<video width="500" controls><source src="https://i.imgur.com/Kvt1DuQ.mp4" type="video/mp4"></video>
+
+Exhausted at the park 2
+<video width="500" controls><source src="https://i.imgur.com/zKvZQvl.mp4" type="video/mp4"></video>
+
+Tired Franky
+<video width="500" controls><source src="https://i.imgur.com/xK2mZFL.mp4" type="video/mp4"></video>
+
+Little Franky sleeping at the beach
+<video width="500" controls><source src="https://i.imgur.com/YYmcIat.mp4" type="video/mp4"></video>
