@@ -1,5 +1,5 @@
 ---
-title: RIP Frank
+title: Rest in Peace Frank
 description: You taught me so much, I'll miss you buddy.
 date: 2022-07-04 18:18:20
 photos: 
@@ -123,41 +123,41 @@ October 13, 2018 - June 19, 2022
 
 ## Videos
 
-Dancing to "Crab Rave"
 <video width="500" controls><source src="https://i.imgur.com/zJFTdxg.mp4" type="video/mp4"></video>
+<p class="caption">Dancing to "Crab Rave"</p>
 
-Chewing dangly things in the backyard
 <video width="500" controls><source src="https://i.imgur.com/yNA5xxI.mp4" type="video/mp4"></video>
+<p class="caption">Chewing dangly things in the backyard</p>
 
-Head banging to metal music
 <video width="500" controls><source src="https://i.imgur.com/MT6yaeu.mp4" type="video/mp4"></video>
+<p class="caption">Head banging to metal music</p>
 
-Running next to me kiteboarding
 <video width="500" controls><source src="https://i.imgur.com/i85sUiZ.mp4" type="video/mp4"></video>
+<p class="caption">Running next to me kiteboarding</p>
 
-Getting treats because he was a good boy
 <video width="500" controls><source src="https://i.imgur.com/axSQUV8.mp4" type="video/mp4"></video>
+<p class="caption">Getting treats because he was a good boy</p>
 
-Hacking the mainframe!
 <video width="500" controls><source src="https://i.imgur.com/FU8DY0I.mp4" type="video/mp4"></video>
+<p class="caption">Hacking the mainframe!</p>
 
-Super slow mo running
 <video width="500" controls><source src="https://i.imgur.com/lLrMrht.mp4" type="video/mp4"></video>
+<p class="caption">Super slow mo running</p>
 
-Running in circles, but enjoying the ride
 <video width="500" controls><source src="https://i.imgur.com/AMukLLB.mp4" type="video/mp4"></video>
+<p class="caption">Running in circles, but enjoying the ride</p>
 
-More head banging!
 <video width="500" controls><source src="https://i.imgur.com/4NBvRuu.mp4" type="video/mp4"></video>
+<p class="caption">More head banging!</p>
 
-Exhausted at the park
 <video width="500" controls><source src="https://i.imgur.com/Kvt1DuQ.mp4" type="video/mp4"></video>
+<p class="caption">Exhausted at the park</p>
 
-Exhausted at the park 2
 <video width="500" controls><source src="https://i.imgur.com/zKvZQvl.mp4" type="video/mp4"></video>
+<p class="caption">Exhausted at the park 2</p>
 
-Tired Franky
 <video width="500" controls><source src="https://i.imgur.com/xK2mZFL.mp4" type="video/mp4"></video>
+<p class="caption">Tired Franky</p>
 
-Little Franky sleeping at the beach
 <video width="500" controls><source src="https://i.imgur.com/YYmcIat.mp4" type="video/mp4"></video>
+<p class="caption">Little Franky sleeping at the beach</p>
