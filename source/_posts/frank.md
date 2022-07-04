@@ -9,7 +9,7 @@ tags:
 - philosophy
 ---
 
-Frank was a good dog. I valued his existence and am sad that he is gone. But during his 3 years with me he taught me so much...
+Frank was a good dog. I valued his existence and am sad that he is gone. But during his 3 years with me, he taught me so much...
 
 <!-- more -->
 
