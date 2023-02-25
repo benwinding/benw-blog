@@ -10,6 +10,8 @@ tags:
 - rant
 ---
 
+<!-- images: https://imgur.com/a/eXrIBRM -->
+
 Contents
 - The common perception
 - A more complete picture
@@ -74,3 +76,5 @@ It makes sense on the surface level... if Amazon is making 1 billion dollars in 
 The thing is, that's the point of open-source... to give without expecting anything in return.
 
 In my experience, anything else is 
+
+Your pricing conflicts with your open source users. You need them to build and improve the product but you also want them to have a worse experience otherwise your cloud-hosted solution will not prevail.
