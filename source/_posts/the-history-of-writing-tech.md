@@ -3,7 +3,7 @@ title: The history of writing tech!
 description: There's been many recent revolutions in writing technologies, and I thought it would be interesting to compare them and the way they affect the author's ideas.
 date: 2023-02-26 18:18:20
 photos: 
-- https://i.imgur.com/OfSX0Cx.png
+- https://i.imgur.com/QxKmXW5.jpg
 tags:
 - writing
 - software
