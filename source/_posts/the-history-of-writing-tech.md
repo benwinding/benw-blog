@@ -13,6 +13,8 @@ tags:
 
 There's been many recent revolutions in writing technologies, and I thought it would be interesting to compare them and the way they affect the author's ideas.
 
+<!-- more --> 
+
 We can break down the act of *writing* into several technological categories. Each form builds on the previous technology.
 
 ### Hand written
