@@ -16,6 +16,7 @@ AI-generated content has never been easier, now anyone can create reasonably hig
 - What makes AI-generated content different?
 - How can we determine who is human online?
 - What does this mean for privacy in the future?
+- Humans can still use these tools and pass content off as though they themselves created the content too
 
 ## Bots will be ubiquitous
 
