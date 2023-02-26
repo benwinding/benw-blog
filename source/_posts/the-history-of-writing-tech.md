@@ -13,27 +13,27 @@ tags:
 
 There's been many recent revolutions in writing technologies, and I thought it would be interesting to compare them and the way they affect the author's ideas.
 
-<!-- more --> 
+We can break down the act of *writing* into several technological categories. Each new invention builds on the previous technology, but there are tradeoffs with each choice.
 
-We can break down the act of *writing* into several technological categories. Each form builds on the previous technology.
+<!-- more --> 
 
 ### Hand written
 
 ![Artist's depiction of *hand writing*](https://i.imgur.com/6thHFgY.jpg)
 
-Somewhere in the beginning there was "cave painting", and some time after came written language. The benefit's of "hand writing" is complete stream of thought, what you are thinking goes directly onto the page. In an isolated context nothing is influencing your idea, but mistakes are also recorded directly too.
+Somewhere in the beginning there was "cave painting", and some time after came written language. Writing by hand allows the writer to express their thoughts in their own aesthetic style completely individual to the writer. It's also a complete stream of thought, what you are thinking goes directly onto the page. However this also means that grammar and spelling errors are recorded too.
 
 ### Typewriter
 
 ![Typewriter as used in 20th century](https://i.imgur.com/LmYXsU2.jpg)
 
-Then came the type writer, a device to make typing easier and more uniform. This allows you to focus on the *content* rather than the visual *aesthetic* of your writing. This also has the consequence of reducing everyone to the single visual style produced by the machine.
+Then came the type writer, a device to make writing easier, quicker and more uniform. This allows you to focus on the *content* rather than the visual *aesthetic* of your writing. This also has the consequence of reducing everyone to the single visual style produced by the machine.
 
 ### Computers
 
 ![Computers that were once common place](https://i.imgur.com/kXOZEVz.jpg)
 
-A relatively short time later, computers were invented and writers loved them. You could actually modify the text before committing it to the paper. You could also edit the visual style relatively easy with this thing called *fonts!*.
+A relatively short time later, computers were born and writers loved them. You could actually modify the text before committing it to physical paper. You could also edit the visual style relatively easy with this thing called *fonts!*.
 
 ### Autocomplete
 
@@ -45,9 +45,9 @@ An extension on the *Computer idea* is the invention of "Autocomplete", which wa
 
 ![The magic of generative AI](https://i.imgur.com/67oWGhR.jpg)
 
-From the bleeding edge of writer's technology comes *Generative AI Prompts*. These systems expand on your input, and can output many paragraphs of well-written original content, based only on a single sentence. Truly incredible technology, but almost entirely removes the writer's *style* and *stream of thought* from the process.
+From the bleeding edge of writer's technology comes *Generative AI Prompts*. These systems expand on your input, and can output many paragraphs of well-written original content, based only on a single sentence. Truly incredible technology, but almost entirely removes the writer's *style* and *stream of thought* from the process. It's often up to the machine to guess what you're brief command was intending.
 
-Here's a table summarizing my thought's on each piece of *writing tech*:
+Here's a table summarising my thought's on each piece of *writing tech*:
 
 ![Different writing technologies and their attributes](https://i.imgur.com/lzD5Xtt.png)
 
