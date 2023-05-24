@@ -38,10 +38,11 @@ But this is reductive, incomplete and frankly a damaging perspective...
 
 It's easy to forget the big picture, but it's important, especially when trying to determine an idea of _fairness_. The truth is, all software development relies on an unfathomably large amount of open-source effort.
 
-Countless libraries, tools, languages, specifications and the history of all their development, all contributes to even the smallest library created...
-
 ![](https://i.imgur.com/NtAs0ZS.png)
 
+Countless libraries, tools, languages, specifications and the history of all their development, all contributes to even the smallest library created...
+
+We are standing on the shoulders of giants after all.
 
 ## 3. Hard questions
 
@@ -60,9 +61,17 @@ If an open-source project insists that it deserves compensation for using it, th
   - Amount of downloads? What if the company downloads it once?
   - Amount of tickets created in the project? What if the company is making tonnes of money, but isn't demanding any changes?
 
+- What license to use?
+  - Is it fair to use it commercially?
+  - At what point is it not fair?
+
+Projects might also opt to protect their product, with licensing restrictions. This could protect the IP or the Trademark of the project. It might even force consumers to purchase the software, if used commercially.
+
+This restriction imposes friction and centralization to the software.
+
 ## Open source is charity
 
-Fundamentally, open-source is about giving the source-code to others to use. It's essentially charity to the public domain. But it's ideally charity _both-ways_, the consumers of the project can contribute back as charity too.
+Fundamentally, open-source is about giving the source-code to others to use. It's essentially charity to the public domain. But it's ideally charity _both-ways_, the consumers of the project can choose to contribute back as charity too.
 
 Projects can implement legal licensing restrictions, in order to get value out of consumers, but this has many detrimental effects to their community.
 
@@ -75,6 +84,6 @@ It makes sense on the surface level... if Amazon is making 1 billion dollars in 
 
 The thing is, that's the point of open-source... to give without expecting anything in return.
 
-In my experience, anything else is 
+In my experience, anything else is terrible.
 
 Your pricing conflicts with your open source users. You need them to build and improve the product but you also want them to have a worse experience otherwise your cloud-hosted solution will not prevail.
