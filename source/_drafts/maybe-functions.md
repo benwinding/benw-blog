@@ -70,7 +70,7 @@ How can we improve this?
 
 There's a way to deal with this and encapsulate the messiness.
 
-```
+``` typescript
 <!-- START MONAD -->
 type Maybe<T> = { value: T };
 
@@ -98,16 +98,12 @@ function CreateUser(): Maybe<User> {
 }
 
 function GetFriends(user: User): User[] {
-  if (!user) {
-    return undefined;
-  }
+  // user is known here
   ...
 }
 
 function GetBestFriends(friends: User[]): User[] {
-  if (!friends) {
-    return undefined;
-  }
+  // friends is known here
   ...
 }
 
