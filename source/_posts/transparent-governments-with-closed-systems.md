@@ -6,7 +6,7 @@ tags:
 - government
 - open-source
 photos:
-- https://i.imgur.com/m5M49du.jpg
+- /images/imgur/m5M49du.jpg
 ---
 
 Most people cringe at the thought of viewing or using government websites. It seems they're always light years behind the industry in terms of standards and technology. It's one of the biggest gaps between the private sector and the public sector, but why is this?

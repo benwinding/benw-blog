@@ -3,7 +3,7 @@ title: The history of writing tech!
 description: There's been many recent revolutions in writing technologies, and I thought it would be interesting to compare them and the way they affect the author's ideas.
 date: 2023-02-26 18:18:20
 photos: 
-- https://i.imgur.com/QxKmXW5.jpg
+- /images/imgur/QxKmXW5.jpg
 tags:
 - writing
 - software
@@ -21,31 +21,31 @@ We can break down the methods of *writing* into several technological categories
 
 Somewhere in the beginning there was "cave painting", and soon after came written language. Writing by hand allows allows a complete stream of thought, what you are thinking goes directly onto the page. However this also means that grammar and spelling errors are recorded too. Fixing those errors takes time and constant drafting and revising.
 
-<img alt="Artist's depiction of hand writing" src="https://i.imgur.com/6thHFgY.jpg" width="500"/>
+<img alt="Artist's depiction of hand writing" src="/images/imgur/6thHFgY.jpg" width="500"/>
 
 ### Typewriter
 
 Then came the type writer, a device to make writing easier and quicker. This machine allowed the writer to focus on the *content* rather than having to manually draw each character. It doesn't stop errors though, this still requires drafting and iteration *(although messiness was eliminated)*.
 
-<img alt="Typewriter as used in 20th century" src="https://i.imgur.com/LmYXsU2.jpg" width="500"/>
+<img alt="Typewriter as used in 20th century" src="/images/imgur/LmYXsU2.jpg" width="500"/>
 
 ### Computers
 
 A relatively short time later, computers were born and writers loved them. This improved version of the typewriter allowed writers to modify the text before committing it to physical paper. Fixing errors was even faster and easier.
 
-<img alt="Computers that were once common place" src="https://i.imgur.com/kXOZEVz.jpg" width="500"/>
+<img alt="Computers that were once common place" src="/images/imgur/kXOZEVz.jpg" width="500"/>
 
 ### Autocomplete
 
 And eventually the computer was fast enough to check error's for you, with the invention of "Autocomplete". This feature could show you which words were not in the dictionary and which sentences had grammatical errors. Sometimes it was right, sometimes it was way off, but you would usually always see the computer suggesting something to you. Fixing errors became almost instantaneous as you wrote.
 
-<img alt="Autocomplete in wordprocessors" src="https://i.imgur.com/zqcfAOT.png" width="500"/>
+<img alt="Autocomplete in wordprocessors" src="/images/imgur/zqcfAOT.png" width="500"/>
 
 ### Generative AI Prompts
 
 From the bleeding edge of writer's technology comes *Generative AI Prompts*. These systems expand on your input, and can output many paragraphs of well-written original content, based only on a single sentence. This technology makes basically no errors, so nothing needs to fixed from the output.
 
-<img alt="The magic of generative AI" src="https://i.imgur.com/67oWGhR.jpg" width="500"/>
+<img alt="The magic of generative AI" src="/images/imgur/67oWGhR.jpg" width="500"/>
 
 ## The Effects
 
@@ -57,7 +57,7 @@ When you see suggestions from the computer, you often either pick a suggestion o
 
 With all this in mind, here's a subjective table summarising my thought's on each piece of *writing tech*:
 
-![Different writing technologies and how they affect your writing](https://i.imgur.com/NAp6M0n.png)
+![Different writing technologies and how they affect your writing](/images/imgur/NAp6M0n.png)
 
 ## Summary
 

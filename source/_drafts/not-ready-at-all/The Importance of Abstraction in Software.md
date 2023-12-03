@@ -14,7 +14,7 @@ It can be confusing at first, especially since the word abstraction has connotat
 
 However it can be basically understood as putting boundaries around complexity in a problem. In other words, dividing a problem into seperate layers.
 
-![](https://i.imgur.com/7t69XGp.jpg) 
+![](/images/imgur/7t69XGp.jpg) 
 src: https://thevisibilityblog.com/2011/08/26/freud-cells-and-visibility/
 
 ## Layer 1 - The Mind
@@ -46,7 +46,7 @@ One simple example that I've found to illustrate the importance of abstraction
 
 All of these _features_ are presented as buttons grouped together on the same interface. Although they vary in what they do, they can be considered to be all on the same **layer of abstraction**. 
 
-![](https://i.imgur.com/OsLN3SV.png) 
+![](/images/imgur/OsLN3SV.png) 
 
 As seen above, the _human interface layer_ (buttons layer) is one of many layers of abstraction that are probably present in a modern TV.
 
@@ -66,4 +66,4 @@ This allows each part to focus on what they are doing and not worry about other 
 
 By dividing the work into the tiniest individual tasks, they've reduced the complexity for each individual but increased the complexity of the assembly of the car. In contrast, the opposite end of the scale is a large warehouse with one old man inside. He has studied and practiced his whole life on the construction of this one particular model of car. All he needs is the tools and parts and he can make the car, making him the value of the business... flexible but bad abstraction. 
 
-[![](https://i.imgur.com/Q1peX5Z.png)](https://imgs.xkcd.com/comics/purity.png) https://www.youtube.com/watch?v=p7nGcY73epw
+[![](/images/imgur/Q1peX5Z.png)](https://imgs.xkcd.com/comics/purity.png) https://www.youtube.com/watch?v=p7nGcY73epw

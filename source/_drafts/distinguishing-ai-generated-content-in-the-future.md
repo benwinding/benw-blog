@@ -3,7 +3,7 @@ title: From Hand Writing to AI Prompt's
 description: AI-generated content has never been easier, now anyone can create reasonably high-quality articles and images and host them online. This incredible technology has sparked several questions for the future of the internet
 date: 2023-02-26 18:18:20
 photos: 
-- https://i.imgur.com/OfSX0Cx.png
+- /images/imgur/OfSX0Cx.png
 tags:
 - writing
 - software

@@ -6,7 +6,7 @@ tags:
 - rant  
 - development
 photos:
-- https://i.imgur.com/InecQIc.jpg
+- /images/imgur/InecQIc.jpg
 ---
 
 Technology is developed in order to solve a problem. The problem is defined in the real world so the solution should endevour to solve the problem based on a model of reality, not the model of technology.

@@ -3,7 +3,7 @@ title: Why I Made YComments
 description: After seeing the impact that discussion systems have had on the internet, I decided to bring the dicussion to the source!
 date: 2018-08-21 14:03:27
 photos: 
- - https://i.imgur.com/5wKAHHP.png
+ - /images/imgur/5wKAHHP.png
 tags:
 - development
 - javascript

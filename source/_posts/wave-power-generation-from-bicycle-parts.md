@@ -3,7 +3,7 @@ title: Wave Power Generation From Bicycle Parts
 description: A breif look at how valuable this idea is
 date: 2019-01-06 01:19:02
 photos: 
-- https://i.imgur.com/vCeK3ZY.png
+- /images/imgur/vCeK3ZY.png
 tags:
 - energy
 - diy
@@ -28,7 +28,7 @@ In developing nations, electricity is not generally available, especially in rur
 # Invention Summary
 The WaveReaper is an invention that generates electricity from the motion of the waves on a coastline. It uses barrels which float on the water and produce electricity back on the shore. 
 
-<img src="https://i.imgur.com/wqdmZkL.gif" alt="Simplistic animation of the WaveReaper system" style="max-width: 500px; width: 100%;"/>
+<img src="/images/imgur/wqdmZkL.gif" alt="Simplistic animation of the WaveReaper system" style="max-width: 500px; width: 100%;"/>
 
 # System Design
 This system is broken down into 5 main parts which; when combined provide a cheap solution, utilising resources easily obtainable in developing parts of the world.
@@ -36,7 +36,7 @@ This system is broken down into 5 main parts which; when combined provide a chea
 ## 1. Buoys
 The systems reach begins in the water. Buoys are used in the water to provide the force to generate power. Barrels are intended, but actually anything buoyant could be used, as long as it's buoyant and durable.
 
-<img src="https://i.imgur.com/0ZNnHuS.gif" alt="Buoy dynamics" style="max-width: 16em; width: 100%;"/>
+<img src="/images/imgur/0ZNnHuS.gif" alt="Buoy dynamics" style="max-width: 16em; width: 100%;"/>
 
 ## 2. Buoy Lines
 The buoy's are connected to **buoy-lines** which run back to shore. These lines are intended to be strong wires, but non-stretch rope could also be used.
@@ -44,7 +44,7 @@ The buoy's are connected to **buoy-lines** which run back to shore. These lines 
 ## 3. Sea Pully
 For the system to get the maximum force from the vertical motion of the waves, the pully needs to be located underwater. This means the buoy's will pull the **buoy-lines** upward against the pully below. The pully is attached to something heavy in the water and is made from rust resistant materials.
 
-<img src="https://i.imgur.com/pdpMngb.gif" alt="Sea-pully " style="max-width: 16em; width: 100%;"/>
+<img src="/images/imgur/pdpMngb.gif" alt="Sea-pully " style="max-width: 16em; width: 100%;"/>
 
 ## 4. Fly Wheel Generator
 This is the most complex part of the system and is a axel based generate with a fly wheel to even out the power output. As a buoy floats up and down, it pulls on a _one-way bearing_ which turns the fly wheel for the motor. 
@@ -52,7 +52,7 @@ This is the most complex part of the system and is a axel based generate with a 
 ## 5. Slack Weights
 The **slack-weights** are used to recover slack in the **buoy-lines** when the buoys are sinking in the bottom of waves. Then the buoys can pull up on a wave as the line the _one-way bearings_ allow the **slack-weights** to pull freely in one-direction and the **fly-wheel generator** to recover pulls in other direction.
 
-<img src="https://i.imgur.com/Uy2X7q0.gif" alt="Buoy dynamics" style="max-width: 14em; width: 100%;"/>
+<img src="/images/imgur/Uy2X7q0.gif" alt="Buoy dynamics" style="max-width: 14em; width: 100%;"/>
 
 
 # Cost Breakdown
@@ -73,7 +73,7 @@ The brilliance of this invention is that all parts can be source from common hou
 
 There's many parts of the world, which could utilise wave energy. But wave power has been measured and is on average most effective further away from the equator.
 
-<img src="https://i.imgur.com/CisdiXf.png" alt="Wave Power Locations" style="max-width: 25em; width: 100%;"/>
+<img src="/images/imgur/CisdiXf.png" alt="Wave Power Locations" style="max-width: 25em; width: 100%;"/>
 
 [3] Wave Energy Visualized
 

@@ -4,7 +4,7 @@ published: true
 description: A brief look at the history behind the opposing styles of quick-return and single-return in functions.
 date: 2018-04-19 20:27:28
 photos: 
-- https://i.imgur.com/IV0f3CX.jpg
+- /images/imgur/IV0f3CX.jpg
 tags:
 - development
 - ssh

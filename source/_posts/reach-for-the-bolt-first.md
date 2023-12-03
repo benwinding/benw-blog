@@ -3,7 +3,7 @@ title: Reach for the bolt first...
 description: 
 date: 2019-01-06 01:19:02
 photos: 
-- https://i.imgur.com/Vb1gYKM.jpg
+- /images/imgur/Vb1gYKM.jpg
 tags:
 - rant
 - programming

@@ -7,7 +7,7 @@ tags:
 - deploy
 - easy
 photos:
-- https://i.imgur.com/bL2R2qX.jpg
+- /images/imgur/bL2R2qX.jpg
 ---
 
 I love [dokku](https://github.com/dokku/dokku) but deploying a simple HTML site is actually quite annoying, so I made [`dokku-pages`](https://github.com/benwinding/dokku-pages).

@@ -4,7 +4,7 @@ published: true
 description: A small rant on how Hacker News confuses people with their advertising methods.
 date: 2018-04-25 23:27:28
 photos: 
-- https://i.imgur.com/8rQBSfm.jpg
+- /images/imgur/8rQBSfm.jpg
 tags:
 - rant
 - hacker-news
@@ -30,7 +30,7 @@ All these things tell the users that HN is a place where content is procurred by
 
 As with all new users, I never saw the first advertisement... because it looked exactly the same as a normal post. Look at the image below, do you see the advertisement?
 
-![Where's the Ad?](https://i.imgur.com/V1BdQsy.png)
+![Where's the Ad?](/images/imgur/V1BdQsy.png)
 
 If you take a minute you might have noticed few minor details which indicate it's an ad.
 
@@ -38,7 +38,7 @@ If you take a minute you might have noticed few minor details which indicate it'
 - Hours instead of points
 - Comments disabled
 
-![Here's where! And the differences...](https://i.imgur.com/bIE7wUW.png)
+![Here's where! And the differences...](/images/imgur/bIE7wUW.png)
 
 These changes were so subtle that I had no idea what was going on for a few different articles.
 

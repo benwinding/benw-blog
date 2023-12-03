@@ -3,7 +3,7 @@ title: Bug Driven Development - Sometimes it's the best choice
 description: BDD or Bug Driven Development is controversial, but sometimes it's appropriate
 date: 2022-04-21 18:18:20
 photos: 
-- https://i.imgur.com/W6FBoWC.jpg
+- /images/imgur/W6FBoWC.jpg
 tags:
 - development
 - software
@@ -20,7 +20,7 @@ Tests are great, they catch errors before release and verify that the code does 
 
 And look at this graph, and how it resembles a waterfall, doesn't look very agile, right?
 
-![Test Driven Development - Development Cycles](https://i.imgur.com/9pl0k0F.png)
+![Test Driven Development - Development Cycles](/images/imgur/9pl0k0F.png)
 <!-- https://swimlanes.io/u/408ujM0Oc -->
 
 ## Bug Driven Development
@@ -29,7 +29,7 @@ In this paradigm you develop the feature in the most MVP way possible, release i
 
 Notice how the initial *Feature Development Cycle* is much tighter... and agile! 
 
-![Bug Driven Development - Development Cycles](https://i.imgur.com/qxiWA62.png)
+![Bug Driven Development - Development Cycles](/images/imgur/qxiWA62.png)
 <!-- https://swimlanes.io/u/m499GMjd5 -->
 
 - Bugs can be reported internally by testers or externally by annoyed users.

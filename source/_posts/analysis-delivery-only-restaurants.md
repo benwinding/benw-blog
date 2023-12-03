@@ -3,8 +3,8 @@ title: Analysis Of Delivery-Only Restaurants
 description: Some businesses are recognizing that tradtional services may be redundant. We found this out the hard way, while ordering a pizza.
 date: 2018-05-11 06:55:10
 photos: 
-- https://i.imgur.com/Hl3kQEr.png
-- https://i.imgur.com/hBmCVRv.jpg
+- /images/imgur/Hl3kQEr.png
+- /images/imgur/hBmCVRv.jpg
 tags:
 - business
 - models
@@ -20,7 +20,7 @@ Previously: [Discovering DELIVERY-ONLY pizza](/discovering-delivery-only-pizza/)
 
 An example of this business-model is _Bianca Pizza_ which is a small delivery-only resturant in Adelaide. [Last week When I discovered it](/discovering-delivery-only-pizza/), I was not to happy that I had to wait on the street for my pizza (as they had no room inside for customers), however I was impressed the efficiency of the business. So I'm going to look at the business model in a little more detail to determine if a delivery-only resturant is a suitable investment.
 
-<img src="https://i.imgur.com/oamYRyN.png" alt="An Example of Delivery-Only - Bianca Pizza" style="max-width: 300px;"/>
+<img src="/images/imgur/oamYRyN.png" alt="An Example of Delivery-Only - Bianca Pizza" style="max-width: 300px;"/>
 
 ## Benefits
 There are many savings that I could spot in why this business model could be competitive against traditional fast food. Some of the benefits include:
@@ -36,7 +36,7 @@ There are many savings that I could spot in why this business model could be com
 
 These are huge savings for a business, which means they can pour more money into more important things LIKE THEIR PRODUCT! ... asside from focusing on making better pizzas, they can also spend more money on online advertising and web development too.
 
-<img src="https://i.imgur.com/Hl3kQEr.png" alt="If all you need is a kitchen, then you can save a lot of space in the resturant... is it still called a resturant?" style="max-width: 500px;"/>
+<img src="/images/imgur/Hl3kQEr.png" alt="If all you need is a kitchen, then you can save a lot of space in the resturant... is it still called a resturant?" style="max-width: 500px;"/>
 
 ## Risks
 This all sounds great right!? Well as with any business, it's important to analyze the risks, especially internet based businesses. And an online business has quite a few. Some risks include:

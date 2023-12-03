@@ -3,10 +3,10 @@ title: Discovering DELIVERY-ONLY pizza
 description: Some businesses are recognizing that tradtional services may be redundant. We found this out the hard way, while ordering a pizza.
 date: 2018-05-04 19:23:45
 photos: 
-- https://i.imgur.com/hBmCVRv.jpg
-- https://i.imgur.com/db2OC0u.png
-- https://i.imgur.com/kvA6BCR.png
-- https://i.imgur.com/oamYRyN.png
+- /images/imgur/hBmCVRv.jpg
+- /images/imgur/db2OC0u.png
+- /images/imgur/kvA6BCR.png
+- /images/imgur/oamYRyN.png
 tags:
 - delivery-only
 - rant
@@ -24,11 +24,11 @@ We recently ordered a pizza from a new pizza shop called *Hey Bianca*. My partne
 
 I looked at the website and at first glance, I was not able to easily find the location of this pizza store. This was pretty odd, as it was a modern website for a pizza store, and one of the main reasons you search a business up is to find it, right?
 
-<img src="https://i.imgur.com/db2OC0u.png" alt="Initial first glance at www.heybianca.co " style="max-width: 300px;"/>
+<img src="/images/imgur/db2OC0u.png" alt="Initial first glance at www.heybianca.co " style="max-width: 300px;"/>
 
 On a closer inspection, I found the location at the very bottom of the page. It was not highlighted and seemed as if it was placed there for legal reasons. This intrigued me, so I set off to find the Pizza Shop!
 
-<img src="https://i.imgur.com/kvA6BCR.png" alt="There's the address!" style="max-width: 300px;"/>
+<img src="/images/imgur/kvA6BCR.png" alt="There's the address!" style="max-width: 300px;"/>
 
 ### Spotting the store
 
@@ -36,7 +36,7 @@ I remembered the highly branded advertisements we found on Instagram, so I looke
 
 After driving past it twice (It was raining, I'm dumb), I finally noticed that the pizza place was a tiny shop without any traditional signs.
 
-<img src="https://i.imgur.com/oamYRyN.png" alt="The store front, small sign not visible behind parked cars" style="max-width: 300px;"/>
+<img src="/images/imgur/oamYRyN.png" alt="The store front, small sign not visible behind parked cars" style="max-width: 300px;"/>
 
 It was weird that the small sign blocked the door (which was actually locked). But when I looked through the window I could see why. The entire Pizza Shop was actually just a big kitchen! So there was no room for customers to order or wait inside.
 

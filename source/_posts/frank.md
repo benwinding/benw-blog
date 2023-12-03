@@ -3,7 +3,7 @@ title: Rest in Peace Frank
 description: You taught me so much, I'll miss you buddy.
 date: 2022-07-04 18:18:20
 photos: 
-- https://i.imgur.com/zAl0i4u.jpg
+- /images/imgur/zAl0i4u.jpg
 tags:
 - dogs
 - philosophy
@@ -49,123 +49,123 @@ October 13, 2018 - June 19, 2022
 
 <!-- imgur album https://imgur.com/a/Y4QMTc7 -->
 
-![Enjoying Goolwa beach](https://i.imgur.com/zAl0i4u.jpg)
+![Enjoying Goolwa beach](/images/imgur/zAl0i4u.jpg)
 
-![Asleep at Goolwa after a long days walking](https://i.imgur.com/v4FhlcN.jpg)
+![Asleep at Goolwa after a long days walking](/images/imgur/v4FhlcN.jpg)
 
-![Working from home with Ben](https://i.imgur.com/QyY1us3.jpg)
+![Working from home with Ben](/images/imgur/QyY1us3.jpg)
 
-![Frank's first day in Adelaide, and learning to trust](https://i.imgur.com/awFakbU.jpg)
+![Frank's first day in Adelaide, and learning to trust](/images/imgur/awFakbU.jpg)
 
-![Bewildered and adolescent Frank](https://i.imgur.com/0Wwj9Wi.jpg)
+![Bewildered and adolescent Frank](/images/imgur/0Wwj9Wi.jpg)
 
-![Frank and his girlfriend Poppy, very happy](https://i.imgur.com/btkmVEw.jpg)
+![Frank and his girlfriend Poppy, very happy](/images/imgur/btkmVEw.jpg)
 
-![Running into the sunset in Kurralta Park](https://i.imgur.com/FSnHzmg.jpg)
+![Running into the sunset in Kurralta Park](/images/imgur/FSnHzmg.jpg)
 
-![Aldinga beach fetching, fastest dog on the sand](https://i.imgur.com/BkHOZuc.png)
+![Aldinga beach fetching, fastest dog on the sand](/images/imgur/BkHOZuc.png)
 
-![Sellick's Beach walking and rock pool inspecting](https://i.imgur.com/RMkbOEU.jpg)
+![Sellick's Beach walking and rock pool inspecting](/images/imgur/RMkbOEU.jpg)
 
-![Enjoying the sun and greenery at Brownhill Creek](https://i.imgur.com/guYkzBE.jpg)
+![Enjoying the sun and greenery at Brownhill Creek](/images/imgur/guYkzBE.jpg)
 
-![Frank and his housemates](https://i.imgur.com/6ypLL7Z.jpg)
+![Frank and his housemates](/images/imgur/6ypLL7Z.jpg)
 
-![Frank the happy puppy](https://i.imgur.com/t47qAvm.jpg)
+![Frank the happy puppy](/images/imgur/t47qAvm.jpg)
 
-![Frank on a French boat at North Haven marina](https://i.imgur.com/Ns5Go3V.jpg)
+![Frank on a French boat at North Haven marina](/images/imgur/Ns5Go3V.jpg)
 
-![Posing for the camera before coming to Adelaide](https://i.imgur.com/1hTAY7W.jpg)
+![Posing for the camera before coming to Adelaide](/images/imgur/1hTAY7W.jpg)
 
-![Frank pretending to be a puppy again after watching me kiteboard at 2020 Nationals](https://i.imgur.com/pbAx3vk.jpg)
+![Frank pretending to be a puppy again after watching me kiteboard at 2020 Nationals](/images/imgur/pbAx3vk.jpg)
 
-![Tired but still cute](https://i.imgur.com/abfBUrb.jpg)
+![Tired but still cute](/images/imgur/abfBUrb.jpg)
 
-![Chilling on the couch at Kurralta park](https://i.imgur.com/QK3A9aV.jpg)
+![Chilling on the couch at Kurralta park](/images/imgur/QK3A9aV.jpg)
 
-![Happy on the floor](https://i.imgur.com/8E26GvT.jpg)
+![Happy on the floor](/images/imgur/8E26GvT.jpg)
 
-![Walks & posing](https://i.imgur.com/8N5I4bt.jpg)
+![Walks & posing](/images/imgur/8N5I4bt.jpg)
 
-![Digging in the rain is fun](https://i.imgur.com/xObVyvZ.jpg)
+![Digging in the rain is fun](/images/imgur/xObVyvZ.jpg)
 
-![Some words are hard to learn, but we got there in the end](https://i.imgur.com/6Zgentm.jpg)
+![Some words are hard to learn, but we got there in the end](/images/imgur/6Zgentm.jpg)
 
-![Always got my back](https://i.imgur.com/sZnJoA7.jpg)
+![Always got my back](/images/imgur/sZnJoA7.jpg)
 
-![Puppy trying to pat big dog](https://i.imgur.com/57A9Hg9.jpg)
+![Puppy trying to pat big dog](/images/imgur/57A9Hg9.jpg)
 
-![Cute little Frank](https://i.imgur.com/KvzPIE7.jpg)
+![Cute little Frank](/images/imgur/KvzPIE7.jpg)
 
-![Beanie buddies](https://i.imgur.com/zoejOKE.jpg)
+![Beanie buddies](/images/imgur/zoejOKE.jpg)
 
-![Having fun kiteboarding together](https://i.imgur.com/opzwXbh.jpg)
+![Having fun kiteboarding together](/images/imgur/opzwXbh.jpg)
 
-![Dirty and happy](https://i.imgur.com/HmnbSAO.jpg)
+![Dirty and happy](/images/imgur/HmnbSAO.jpg)
 
-![Bravely crossing the scary bridge in St Peter's](https://i.imgur.com/MuwxkCv.jpg)
+![Bravely crossing the scary bridge in St Peter's](/images/imgur/MuwxkCv.jpg)
 
-![Tired but happy](https://i.imgur.com/opGi1In.jpg)
+![Tired but happy](/images/imgur/opGi1In.jpg)
 
-![Big walks call for an afternoon nap](https://i.imgur.com/b5MsqhD.jpg)
+![Big walks call for an afternoon nap](/images/imgur/b5MsqhD.jpg)
 
-![Playtime never stops!](https://i.imgur.com/r9i6lz7.jpg)
+![Playtime never stops!](/images/imgur/r9i6lz7.jpg)
 
-![A beautiful portrait of Frank by Prudence Ivy](https://i.imgur.com/DBQBQjl.jpg)
+![A beautiful portrait of Frank by Prudence Ivy](/images/imgur/DBQBQjl.jpg)
 
-![Frank kissing Taro](https://i.imgur.com/HA57tkH.jpg)
+![Frank kissing Taro](/images/imgur/HA57tkH.jpg)
 
-![Excited to hit the beach](https://i.imgur.com/ZjM8V0p.jpg)
+![Excited to hit the beach](/images/imgur/ZjM8V0p.jpg)
 
-![The doggies and Adzie](https://i.imgur.com/EWBZ0La.jpg)
+![The doggies and Adzie](/images/imgur/EWBZ0La.jpg)
 
-![Tired Happy Franky](https://i.imgur.com/T3I2N2S.jpg)
+![Tired Happy Franky](/images/imgur/T3I2N2S.jpg)
 
-![Forrest walks with Dad](https://i.imgur.com/XIftKiH.jpg)
+![Forrest walks with Dad](/images/imgur/XIftKiH.jpg)
 
-![Jumping on a fallen tree with Dad](https://i.imgur.com/LfJtug7.jpg)
+![Jumping on a fallen tree with Dad](/images/imgur/LfJtug7.jpg)
 
-![Posing in the sunlight](https://i.imgur.com/QSHa4kU.jpg)
+![Posing in the sunlight](/images/imgur/QSHa4kU.jpg)
 
-![Majestically smelling the country side](https://i.imgur.com/XHOMVRs.jpg)
+![Majestically smelling the country side](/images/imgur/XHOMVRs.jpg)
 
 ## Videos
 
-<video width="500" controls><source src="https://i.imgur.com/zJFTdxg.mp4" type="video/mp4"></video>
+<video width="500" controls><source src="/images/imgur/zJFTdxg.mp4" type="video/mp4"></video>
 <p class="caption">Dancing to "Crab Rave"</p>
 
-<video width="500" controls><source src="https://i.imgur.com/yNA5xxI.mp4" type="video/mp4"></video>
+<video width="500" controls><source src="/images/imgur/yNA5xxI.mp4" type="video/mp4"></video>
 <p class="caption">Chewing dangly things in the backyard</p>
 
-<video width="500" controls><source src="https://i.imgur.com/MT6yaeu.mp4" type="video/mp4"></video>
+<video width="500" controls><source src="/images/imgur/MT6yaeu.mp4" type="video/mp4"></video>
 <p class="caption">Head banging to metal music</p>
 
-<video width="500" controls><source src="https://i.imgur.com/i85sUiZ.mp4" type="video/mp4"></video>
+<video width="500" controls><source src="/images/imgur/i85sUiZ.mp4" type="video/mp4"></video>
 <p class="caption">Running next to me kiteboarding</p>
 
-<video width="500" controls><source src="https://i.imgur.com/axSQUV8.mp4" type="video/mp4"></video>
+<video width="500" controls><source src="/images/imgur/axSQUV8.mp4" type="video/mp4"></video>
 <p class="caption">Getting treats because he was a good boy</p>
 
-<video width="500" controls><source src="https://i.imgur.com/FU8DY0I.mp4" type="video/mp4"></video>
+<video width="500" controls><source src="/images/imgur/FU8DY0I.mp4" type="video/mp4"></video>
 <p class="caption">Hacking the mainframe!</p>
 
-<video width="500" controls><source src="https://i.imgur.com/lLrMrht.mp4" type="video/mp4"></video>
+<video width="500" controls><source src="/images/imgur/lLrMrht.mp4" type="video/mp4"></video>
 <p class="caption">Super slow mo running</p>
 
-<video width="500" controls><source src="https://i.imgur.com/AMukLLB.mp4" type="video/mp4"></video>
+<video width="500" controls><source src="/images/imgur/AMukLLB.mp4" type="video/mp4"></video>
 <p class="caption">Running in circles, but enjoying the ride</p>
 
-<video width="500" controls><source src="https://i.imgur.com/4NBvRuu.mp4" type="video/mp4"></video>
+<video width="500" controls><source src="/images/imgur/4NBvRuu.mp4" type="video/mp4"></video>
 <p class="caption">More head banging!</p>
 
-<video width="500" controls><source src="https://i.imgur.com/Kvt1DuQ.mp4" type="video/mp4"></video>
+<video width="500" controls><source src="/images/imgur/Kvt1DuQ.mp4" type="video/mp4"></video>
 <p class="caption">Exhausted at the park</p>
 
-<video width="500" controls><source src="https://i.imgur.com/zKvZQvl.mp4" type="video/mp4"></video>
+<video width="500" controls><source src="/images/imgur/zKvZQvl.mp4" type="video/mp4"></video>
 <p class="caption">Exhausted at the park 2</p>
 
-<video width="500" controls><source src="https://i.imgur.com/xK2mZFL.mp4" type="video/mp4"></video>
+<video width="500" controls><source src="/images/imgur/xK2mZFL.mp4" type="video/mp4"></video>
 <p class="caption">Tired Franky</p>
 
-<video width="500" controls><source src="https://i.imgur.com/YYmcIat.mp4" type="video/mp4"></video>
+<video width="500" controls><source src="/images/imgur/YYmcIat.mp4" type="video/mp4"></video>
 <p class="caption">Little Franky sleeping at the beach</p>

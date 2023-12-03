@@ -3,7 +3,7 @@ title: The Ultimate HTML 2 PDF Service
 description: The story of how I implemented a cheap html converter using cloud technology.
 date: 2021-03-25 22:06:10
 photos: 
-- https://i.imgur.com/pVMgGch.jpg
+- /images/imgur/pVMgGch.jpg
 tags:
 - docker
 - development

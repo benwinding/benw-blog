@@ -3,7 +3,7 @@ title: Open-Source is about giving back
 description: 
 date: 2023-01-08 10:37:10
 photos: 
-- https://i.imgur.com/ck7Y1IJ.png
+- /images/imgur/ck7Y1IJ.png
 tags:
 - development
 - software
@@ -24,13 +24,13 @@ There's a strange sentiment in the Open-Source community from people who see the
 
 This YouTube comment perfectly describes this perspective:
 
-![](https://i.imgur.com/ck7Y1IJ.png)
+![](/images/imgur/ck7Y1IJ.png)
 
 ## 1. The common perception
 
 On the surface, it looks simple and unfair. Some poor developer builds a little project, then a giant company adds that to their product and makes billions.
 
-![](https://i.imgur.com/j7w0rq0.png)
+![](/images/imgur/j7w0rq0.png)
 
 But this is reductive, incomplete and frankly a damaging perspective...
 
@@ -38,7 +38,7 @@ But this is reductive, incomplete and frankly a damaging perspective...
 
 It's easy to forget the big picture, but it's important, especially when trying to determine an idea of _fairness_. The truth is, all software development relies on an unfathomably large amount of open-source effort.
 
-![](https://i.imgur.com/NtAs0ZS.png)
+![](/images/imgur/NtAs0ZS.png)
 
 Countless libraries, tools, languages, specifications and the history of all their development, all contributes to even the smallest library created...
 

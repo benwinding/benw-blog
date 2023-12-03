@@ -7,7 +7,7 @@ tags:
 - scraping
 - uni
 photos: 
- - https://i.imgur.com/WEzxyHh.jpg
+ - /images/imgur/WEzxyHh.jpg
 ---
 
 So it was time to study for uni exams, this meant that I needed to revise the content in all of the lectures. But wait! the lecture slides are only accessible through a convoluted website system called _Canvas LMS_. 

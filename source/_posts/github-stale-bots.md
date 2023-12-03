@@ -2,7 +2,7 @@
 title: "Github Stale Bots: A False Economy"
 date: 2021-01-17 10:15:11
 photos: 
-- https://i.imgur.com/OOBT9Ta.png
+- /images/imgur/OOBT9Ta.png
 tags:
 - rant
 - github

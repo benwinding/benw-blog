@@ -6,7 +6,7 @@ tags:
 - graphs
 - open-source
 photos:
-- https://i.imgur.com/4IBbw20.jpg
+- /images/imgur/4IBbw20.jpg
 ---
 
 Dear Internet,
@@ -23,7 +23,7 @@ This blog has been started to help me with writing and expressing my thoughts a
 
 ## Development Cycle
 
-![](https://i.imgur.com/9aJVGvE.png) ^ was made using: [https://code2flow.com](https://code2flow.com) ... here's the source code to the image above:
+![](/images/imgur/9aJVGvE.png) ^ was made using: [https://code2flow.com](https://code2flow.com) ... here's the source code to the image above:
 
 ``` c Top secret source code https://code2flow.com code2flow
 // Audience
