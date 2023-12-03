@@ -1,0 +1,13 @@
+diff --git a/node_modules/hexo-renderer-markdown-it/lib/images.js b/node_modules/hexo-renderer-markdown-it/lib/images.js
+index 22588eb..f5c987c 100644
+--- a/node_modules/hexo-renderer-markdown-it/lib/images.js
++++ b/node_modules/hexo-renderer-markdown-it/lib/images.js
+@@ -13,6 +13,8 @@ function images(md, opts) {
+     const token = tokens[idx];
+     const { postPath } = env;
+ 
++    token.attrSet('alt', token.content);
++
+     if (lazyload) {
+       token.attrSet('loading', 'lazy');
+     }

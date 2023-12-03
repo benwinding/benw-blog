@@ -106,3 +106,8 @@ jsonContent:
     excerpt: true
     categories: false
     tags: false
+
+markdown:
+  preset: 'default'
+  images:
+    lazyload: true
