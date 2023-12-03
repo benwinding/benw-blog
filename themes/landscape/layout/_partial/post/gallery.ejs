@@ -2,7 +2,12 @@
 <div class="article-gallery">
   <div class="article-gallery-photos">
     <% post.photos.forEach(function(photo, i){ %>
-      <a class="article-gallery-img fancybox" href="<%- url_for(photo) %>" rel="gallery_<%= post._id %>">
+      <%
+        var image_link = is_post()
+          ? url_for(photo)
+          : url_for(post.path);
+      %>
+      <a class="article-gallery-img fancybox" href="<%= image_link %>" rel="gallery_<%= post._id %>">
         <img src="<%- url_for(photo) %>" itemprop="image">
       </a>
     <% }) %>
