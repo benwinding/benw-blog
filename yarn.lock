@@ -613,7 +613,7 @@ commander@5.x, commander@^5.1.0:
   resolved "https://registry.yarnpkg.com/commander/-/commander-5.1.0.tgz#46abbd1652f8e059bddaef99bbdcb2ad9cf179ae"
   integrity sha512-P0CysNDQ7rtVw4QIQtm+MRxV66vKFSvlsQvGYXZWR3qFU0jlMKHZZZgw8e+8DSah4UDKMqnknRDQz+xuQXQ/Zg==
 
-commander@^2.2.0, commander@~2.20.3:
+commander@^2.2.0:
   version "2.20.3"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
   integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
@@ -1570,13 +1570,6 @@ hexo-i18n@^1.0.0:
   integrity sha512-yw90JHr7ybUHN/QOkpHmlWJj1luVk5/v8CUU5NRA0n4TFp6av8NT7ujZ10GDawgnQEdMHnN5PUfAbNIVGR6axg==
   dependencies:
     sprintf-js "^1.0.3"
-
-hexo-lazyload-image@^1.0.13:
-  version "1.0.13"
-  resolved "https://registry.yarnpkg.com/hexo-lazyload-image/-/hexo-lazyload-image-1.0.13.tgz#ebc9008af7962a9022f09bb3f317ee7596f66e3c"
-  integrity sha512-6Xz+V3Rwr3zuUTo4rGnVYa2QBBOAmdjYWeVxZql1TD2CteD8gh2L7EP9d7QsFfwtMDK3BTGY2FETCdtwZx8cRw==
-  dependencies:
-    uglify-js "^3.0.27"
 
 hexo-log@^1.0.0:
   version "1.0.0"
@@ -3655,13 +3648,6 @@ uc.micro@^1.0.1, uc.micro@^1.0.5:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/uc.micro/-/uc.micro-1.0.6.tgz#9c411a802a409a91fc6cf74081baba34b24499ac"
   integrity sha512-8Y75pvTYkLJW2hWQHXxoqRgV7qb9B+9vFEtidML+7koHUFapnVJAZ6cKs+Qjz5Aw3aZWHMC6u0wJE3At+nSGwA==
-
-uglify-js@^3.0.27:
-  version "3.9.4"
-  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.9.4.tgz#867402377e043c1fc7b102253a22b64e5862401b"
-  integrity sha512-8RZBJq5smLOa7KslsNsVcSH+KOXf1uDU8yqLeNuVKwmT0T3FA0ZoXlinQfRad7SDcbZZRZE4ov+2v71EnxNyCA==
-  dependencies:
-    commander "~2.20.3"
 
 ultron@~1.1.0:
   version "1.1.1"
