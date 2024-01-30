@@ -39,6 +39,6 @@
     "patch-package": "^8.0.0"
   },
   "devDependencies": {
-    "dokku-pages": "^1.0.9"
+    "dokku-pages": "^1.0.12"
   }
 }
