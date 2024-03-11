@@ -40,11 +40,6 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
-highlight:
-  enable: true
-  line_number: true
-  auto_detect: false
-  tab_replace:
   
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -106,6 +101,16 @@ jsonContent:
     excerpt: true
     categories: false
     tags: false
+
+syntax_highlighter: highlight.js
+highlight:
+  auto_detect: false
+  line_number: false
+  tab_replace: '  '
+  exclude_languages:
+    - example
+  wrap: true
+  hljs: false
 
 markdown:
   preset: 'default'

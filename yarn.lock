@@ -900,10 +900,10 @@ devtools-protocol@0.0.1045489:
   resolved "https://registry.yarnpkg.com/devtools-protocol/-/devtools-protocol-0.0.1045489.tgz#f959ad560b05acd72d55644bc3fb8168a83abf28"
   integrity sha512-D+PTmWulkuQW4D1NTiCRCFxF7pQPn0hgp4YyX4wAQ6xYXKOadSWPR3ENGDQ47MW/Ewc9v2rpC/UEEGahgBYpSQ==
 
-dokku-pages@^1.0.9:
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/dokku-pages/-/dokku-pages-1.0.9.tgz#c45fa2bcacad6b457d84a5bf02a5e59aec4627cb"
-  integrity sha512-rqcEI0EYihYg9pqMSUy9Sj4ViRgvsOps01C4ALpmNpzJks8To7/SbvG8z907g5KhDaympt+c0T45WDMY6xkWZQ==
+dokku-pages@^1.0.12:
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/dokku-pages/-/dokku-pages-1.0.12.tgz#8e5950ee9891b2f8035b42f20d24391d74737666"
+  integrity sha512-dF1k8OpaNVPaIiGDXqq54m5w3GqtLgIm+9/j3sDKKsD5dFSaEYypF9UYgCHX9LYEiKhYdQWf+CLH65H8AUH3ww==
   dependencies:
     chalk "^4.1.0"
     commander "5.x"
