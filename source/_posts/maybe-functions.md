@@ -24,13 +24,14 @@ function maybeGetUser(): User | null {
   return fetchUser();
 }
 ```
+
+<!-- more --> 
+
 _Notes:_
 - This is highly related to the "Null Object Pattern", but I thought I would explain it from the perspective of functions.
 - It's also important to note here, that in the wild "maybe functions" might not be conveniently prefixed with "maybe"...
 
-<!-- more --> 
-
-So what are the trade-off's with using "maybe functions"?
+So what are the trade-off's when using "maybe functions"?
 
 ## Advantages
 - Validation logic coupled with implementation
@@ -41,10 +42,10 @@ So what are the trade-off's with using "maybe functions"?
 - Hides complexity but doesn't actually remove it
 - Things that depend on the output now need to handle the maybeness case
 
-When a "maybe function" is implemented, it makes it far more likely that other "maybe functions" will be introduced to deal with all the `null` values.
+When a "maybe function" is implemented, it makes it far more likely that **more** "maybe functions" will be introduced to deal with all the `null` values. Here's some pseudo code to show the basic problem:
 
 ``` tsx
-// Psuedo code, not real react
+// warning: not real react
 function Page() {
   const bestFriends = maybeRenderBestFriends();
   return <>
@@ -81,7 +82,7 @@ function maybeFilterBestFriends(friends: Friend[] | null): Friend[] | null {
 }
 ```
 
-You can see how this pattern *maybe* getting out of control... it does look clean in the consumer, with no control logic. However the `null` handling spreads to all new functions, and obscures what functions are actually doing... which is "doing nothing" most times.
+You can see how this pattern *maybe* getting out of control... it does look clean in the consumer, with no control logic. However the `null` handling spreads to all new functions, and obscures what functions are actually doing... which is usually "nothing", so why even call it?
 
 How can we improve this?
 
@@ -90,7 +91,7 @@ How can we improve this?
 The easiest way to remove the "maybeness" from functions is to lift up the "maybe" logic into the consumer, this removes the possible `null` aspects of the function, which allows other functions to remove theirs too!
 
 ``` tsx
-// Psuedo code, not real react
+// warning: not real react
 function Page() {
   const bestFriends = loggedIn
     ? renderBestFriends()
@@ -119,6 +120,8 @@ function filterBestFriends(friends: Friend[]): Friend[] {
   return friends.filter(f => f.bestFriend);
 }
 ```
+
+This is much easier to understand, as each function does what it says and there's much less "maybeness" to account for.
 
 ## Solution 2 - Monads
 
@@ -169,11 +172,11 @@ function filterBestFriends(friends: Friend[]): Friend[] {
 }
 ```
 
-This might be appropriate for a lot of situations, but I believe the 1st solution should definitely be reached for first, as it doesn't rely on a new abstraction.
+This might be appropriate for a lot of situations, but I believe the 1st solution should definitely be reached for first, as it doesn't rely on another level of abstraction.
 
 ## Conclusion
 
-Maybe functions have always annoyed me personally as they can found in many codebases across any language that allows `null`. They seem to be trivial to add, but difficult to remove. But hopefully this illustrates the concern and how it can be fixed.
+Maybe functions have always annoyed me personally and they can found in many codebases across any language that allows `null`. They seem to be trivial to add, but difficult to remove. But hopefully this illustrates the concern and ways to fix it.
 
 {% blockquote Ben Winding, 2024 %}
 "Functions should do something, not _maybe_ do something..."
