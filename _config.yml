@@ -97,7 +97,7 @@ jsonContent:
     updated: false
     comments: false
     link: false
-    permalink: false
+    permalink: true
     excerpt: true
     categories: false
     tags: true
