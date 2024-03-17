@@ -93,14 +93,14 @@ jsonContent:
     text: false
     raw: false
     content: false
-    slug: false
+    slug: true
     updated: false
     comments: false
     link: false
     permalink: false
     excerpt: true
     categories: false
-    tags: false
+    tags: true
 
 syntax_highlighter: highlight.js
 highlight:
