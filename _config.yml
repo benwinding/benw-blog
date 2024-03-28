@@ -92,6 +92,7 @@ jsonContent:
     path: true
     text: false
     raw: false
+    photos: true
     content: false
     slug: true
     updated: false
