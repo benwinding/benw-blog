@@ -92,7 +92,7 @@ jsonContent:
     path: true
     text: false
     raw: false
-    photos: true
+    thumbnail: true
     content: false
     slug: true
     updated: false
