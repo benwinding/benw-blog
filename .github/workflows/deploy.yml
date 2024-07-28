@@ -19,14 +19,10 @@ jobs:
         uses: actions/cache@v1
         with:
           path: node_modules
-          key: ${{ runner.OS }}-build-node_modules-${{ hashFiles('yarn.lock') }}
-      - name: enable corepack (yarn)
-        run: corepack enable
-      - name: Yarn version
-        run: yarn -v
+          key: ${{ runner.OS }}-build-node_modules-${{ hashFiles('package-lock.json') }}
       - name: Install Dependencies
         if: steps.cache-modules.outputs.cache-hit != 'true'
-        run: yarn
+        run: npm i
       - name: Install SSH key
         uses: shimataro/ssh-key-action@v2
         with:
