@@ -13,13 +13,13 @@
   "private": true,
   "license": "MIT",
   "hexo": {
-    "version": "6.3.0"
+    "version": "7.3.0"
   },
   "engines": {
     "node": ">=6.0"
   },
   "dependencies": {
-    "hexo": "6.x",
+    "hexo": "7.3.0",
     "hexo-browsersync": "^0.3.0",
     "hexo-cli": "^3.1.0",
     "hexo-generator-archive": "^1.0.0",
