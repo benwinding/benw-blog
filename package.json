@@ -38,5 +38,6 @@
   },
   "devDependencies": {
     "dokku-pages": "^1.0.12"
-  }
+  },
+  "packageManager": "yarn@4.3.1"
 }

@@ -8,4 +8,5 @@ public*/
 .idea/
 package-lock.json
 yarn*
+.yarn/*
 !yarn.lock
