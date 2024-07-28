@@ -20,6 +20,8 @@ jobs:
         with:
           path: node_modules
           key: ${{ runner.OS }}-build-node_modules-${{ hashFiles('yarn.lock') }}
+      - name: enable corepack (yarn)
+        run: corepack enable
       - name: Yarn version
         run: yarn -v
       - name: Install Dependencies
