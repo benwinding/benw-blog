@@ -399,3 +399,19 @@ $article-gallery-ctrl
 .img-med
   width: 100%
   max-width: 400px !important
+
+a.header-anchor
+  color: transparent
+  font-size: smaller
+  position: absolute;
+  margin-left: -28px;
+  transition: text-shadow 400ms
+  text-shadow: 0 0 transparent
+
+h2:hover a.header-anchor,
+h3:hover a.header-anchor,
+h4:hover a.header-anchor
+  text-shadow: 0 0 #800000
+
+a.header-anchor:hover
+  text-decoration: none;

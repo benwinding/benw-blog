@@ -115,5 +115,14 @@ highlight:
 
 markdown:
   preset: 'default'
+  anchors:
+    # Minimum level for ID creation. (Ex. h2 to h6)
+    level: 2
+    # If `true`, creates an anchor tag with a permalink besides the heading.
+    permalink: true
+    # The symbol used to make the permalink
+    permalinkSymbol: 🔗
+    # Class used for the permalink anchor tag.
+    permalinkClass: header-anchor
   images:
     lazyload: true
