@@ -2,12 +2,16 @@
 title: Preferring public method isolation
 description: 
 date: 2024-09-02 19:13:01
+photos: 
+- /images/imgur/912ehabxsaxa.jpeg
 tags:
 - software
 - rant
 ---
 
 Things become complicated when public methods of a class call each other. This can be demonstrated fairly easily with some examples:
+
+<!-- more -->
 
 ``` typescript
 class UserController {
@@ -23,6 +27,7 @@ class UserController {
 
 This can also be shown with the following dependency diagram. Which shows that `onBack` implicitly depends on `onSave`.
 
+<center>
 {% mermaid %}
 flowchart TD;
     UserController-->onBack;
@@ -36,6 +41,7 @@ flowchart TD;
     onBack-->navigateBack;
     end
 {% endmermaid %}
+</center>
 
 Which means if the `onSave` method is modified, then the behavior of the `onBack` method is also affected, which may be unintended
 
