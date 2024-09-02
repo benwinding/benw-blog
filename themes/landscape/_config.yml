@@ -1,6 +1,7 @@
 # Header
 menu:
-  Home: /
+  Blog: /
+  Ben: https://benwinding.com
   Archives: /archives
 rss: /atom.xml
 
