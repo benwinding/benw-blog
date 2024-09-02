@@ -1,6 +1,6 @@
 ---
 title: Preferring public method isolation
-description: 
+description: Things become complicated when public methods of a class call each other. This can be demonstrated fairly easily with some examples...
 date: 2024-09-02 19:13:01
 photos: 
 - /images/imgur/912ehabxsaxa.jpeg
