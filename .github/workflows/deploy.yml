@@ -1,41 +1,35 @@
+name: Deploy 🚀 Blog
+
 on:
   push:
-    branches:
-      - master
+    branches: [master]
+    paths:
+      - ".github/workflows/**"
 
-name: "Deploy 🚀 Web"
+permissions:
+  contents: write
+
 jobs:
-  build:
-    name: Build
+  deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v2
-      - name: Use Node.js
-        uses: actions/setup-node@v1
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
         with:
-          node-version: 18.19.0
-      - name: Cache node_modules
-        id: cache-modules
-        uses: actions/cache@v1
+          node-version: 22
+          cache: npm
+          cache-dependency-path: package-lock.json
+
+      - name: Install
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Deploy to GitHub Pages (gh-pages branch)
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          path: node_modules
-          key: ${{ runner.OS }}-build-node_modules-${{ hashFiles('package-lock.json') }}
-      - name: Install Dependencies
-        if: steps.cache-modules.outputs.cache-hit != 'true'
-        run: npm i
-      - name: Install SSH key
-        uses: shimataro/ssh-key-action@v2
-        with:
-          name: id_rsa-target
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          known_hosts: ${{ secrets.SSH_KNOWN_HOSTS }}
-          config: |
-            IdentityFile ~/.ssh/id_rsa-target
-      - name: Create CI Git User
-        run: |
-          git config --global user.email "action@github.com"
-          git config --global user.name "GitHub Action"          
-      - name: Deploy to Dokku! 🚀
-        run: |
-          yarn build 
-          yarn deploy
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: public
