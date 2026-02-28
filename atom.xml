@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>blog.benwinding</title>
+  
+  <subtitle>Musings from a software developer</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://blog.benwinding.com/"/>
+  <updated>2026-02-28T07:35:02.154Z</updated>
+  <id>https://blog.benwinding.com/</id>
+  
+  <author>
+    <name>Ben Winding</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Preferring public method isolation</title>
+    <link href="https://blog.benwinding.com/preferring-public-method-isolation/"/>
+    <id>https://blog.benwinding.com/preferring-public-method-isolation/</id>
+    <published>2024-09-02T09:43:01.000Z</published>
+    <updated>2026-02-28T07:35:02.154Z</updated>
+    
+    <summary type="html">
+    
+      Things become complicated when public methods of a class call each other. This can be demonstrated fairly easily with some examples...
+    
+    </summary>
+    
+    
+    
+      <category term="rant" scheme="https://blog.benwinding.com/tags/rant/"/>
+    
+      <category term="software" scheme="https://blog.benwinding.com/tags/software/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Maybe Functions</title>
+    <link href="https://blog.benwinding.com/maybe-functions/"/>
+    <id>https://blog.benwinding.com/maybe-functions/</id>
+    <published>2024-03-11T08:23:48.000Z</published>
+    <updated>2026-02-28T07:35:02.154Z</updated>
+    
+    <summary type="html">
+    
+      A coding anti-pattern that spreads it&#39;s tentacles across the codebase
+    
+    </summary>
+    
+    
+    
+      <category term="rant" scheme="https://blog.benwinding.com/tags/rant/"/>
+    
+      <category term="development" scheme="https://blog.benwinding.com/tags/development/"/>
+    
+      <category term="software" scheme="https://blog.benwinding.com/tags/software/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>The history of writing tech!</title>
+    <link href="https://blog.benwinding.com/the-history-of-writing-tech/"/>
+    <id>https://blog.benwinding.com/the-history-of-writing-tech/</id>
+    <published>2023-02-26T07:48:20.000Z</published>
+    <updated>2026-02-28T07:35:02.154Z</updated>
+    
+    <summary type="html">
+    
+      There&#39;s been many recent revolutions in writing technologies, and I thought it would be interesting to compare them and the way they affect the author&#39;s ideas.
+    
+    </summary>
+    
+    
+    
+      <category term="rant" scheme="https://blog.benwinding.com/tags/rant/"/>
+    
+      <category term="software" scheme="https://blog.benwinding.com/tags/software/"/>
+    
+      <category term="writing" scheme="https://blog.benwinding.com/tags/writing/"/>
+    
+      <category term="ai" scheme="https://blog.benwinding.com/tags/ai/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Rest in Peace Frank</title>
+    <link href="https://blog.benwinding.com/frank/"/>
+    <id>https://blog.benwinding.com/frank/</id>
+    <published>2022-07-04T08:48:20.000Z</published>
+    <updated>2026-02-28T07:35:02.154Z</updated>
+    
+    <summary type="html">
+    
+      You taught me so much, I&#39;ll miss you buddy.
+    
+    </summary>
+    
+    
+    
+      <category term="dogs" scheme="https://blog.benwinding.com/tags/dogs/"/>
+    
+      <category term="philosophy" scheme="https://blog.benwinding.com/tags/philosophy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Bug Driven Development - Sometimes it&#39;s the best choice</title>
+    <link href="https://blog.benwinding.com/bug-driven-development-sometimes-its-the-best-choice/"/>
+    <id>https://blog.benwinding.com/bug-driven-development-sometimes-its-the-best-choice/</id>
+    <published>2022-04-21T08:48:20.000Z</published>
+    <updated>2026-02-28T07:35:02.154Z</updated>
+    
+    <summary type="html">
+    
+      BDD or Bug Driven Development is controversial, but sometimes it&#39;s appropriate
+    
+    </summary>
+    
+    
+    
+      <category term="rant" scheme="https://blog.benwinding.com/tags/rant/"/>
+    
+      <category term="development" scheme="https://blog.benwinding.com/tags/development/"/>
+    
+      <category term="software" scheme="https://blog.benwinding.com/tags/software/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Github Stale Bots: A False Economy</title>
+    <link href="https://blog.benwinding.com/github-stale-bots/"/>
+    <id>https://blog.benwinding.com/github-stale-bots/</id>
+    <published>2021-01-16T23:45:11.000Z</published>
+    <updated>2026-02-28T07:35:02.154Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;em&gt;Stale Bot’s&lt;/em&gt; are a type of automated bot on Github, which locks issues which are “stale” (as in have no recent activity). This seems like a helpful tool at first, but in reality it’s terrible for all parties involved.&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="rant" scheme="https://blog.benwinding.com/tags/rant/"/>
+    
+      <category term="github" scheme="https://blog.benwinding.com/tags/github/"/>
+    
+      <category term="stale bot" scheme="https://blog.benwinding.com/tags/stale-bot/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Easiest Static Sites on Dokku!</title>
+    <link href="https://blog.benwinding.com/easiest-static-sites-on-dokku/"/>
+    <id>https://blog.benwinding.com/easiest-static-sites-on-dokku/</id>
+    <published>2020-12-22T20:25:24.000Z</published>
+    <updated>2026-02-28T07:35:02.154Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;I love &lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="development" scheme="https://blog.benwinding.com/tags/development/"/>
+    
+      <category term="ssh" scheme="https://blog.benwinding.com/tags/ssh/"/>
+    
+      <category term="deploy" scheme="https://blog.benwinding.com/tags/deploy/"/>
+    
+      <category term="dokku" scheme="https://blog.benwinding.com/tags/dokku/"/>
+    
+      <category term="easy" scheme="https://blog.benwinding.com/tags/easy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Round Coffee Table</title>
+    <link href="https://blog.benwinding.com/round-table/"/>
+    <id>https://blog.benwinding.com/round-table/</id>
+    <published>2020-06-14T11:08:00.000Z</published>
+    <updated>2026-02-28T07:35:02.154Z</updated>
+    
+    <summary type="html">
+    
+      A small wood working project of a round table.
+    
+    </summary>
+    
+    
+    
+      <category term="project" scheme="https://blog.benwinding.com/tags/project/"/>
+    
+      <category term="table" scheme="https://blog.benwinding.com/tags/table/"/>
+    
+      <category term="wood-working" scheme="https://blog.benwinding.com/tags/wood-working/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Reach for the bolt first...</title>
+    <link href="https://blog.benwinding.com/reach-for-the-bolt-first/"/>
+    <id>https://blog.benwinding.com/reach-for-the-bolt-first/</id>
+    <published>2019-01-05T14:49:02.000Z</published>
+    <updated>2026-02-28T07:35:02.154Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;An industrius mechanical engineer is designing a machine and is faced with the problem of attaching a component to another component. What does he do? Well he quickly solves the problem, by selecting several bolts which would hold the two components together… just as he had thousands of times before…&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="rant" scheme="https://blog.benwinding.com/tags/rant/"/>
+    
+      <category term="programming" scheme="https://blog.benwinding.com/tags/programming/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Wave Power Generation From Bicycle Parts</title>
+    <link href="https://blog.benwinding.com/wave-power-generation-from-bicycle-parts/"/>
+    <id>https://blog.benwinding.com/wave-power-generation-from-bicycle-parts/</id>
+    <published>2019-01-05T14:49:02.000Z</published>
+    <updated>2026-02-28T07:35:02.154Z</updated>
+    
+    <summary type="html">
+    
+      A breif look at how valuable this idea is
+    
+    </summary>
+    
+    
+    
+      <category term="energy" scheme="https://blog.benwinding.com/tags/energy/"/>
+    
+      <category term="diy" scheme="https://blog.benwinding.com/tags/diy/"/>
+    
+      <category term="wavepower" scheme="https://blog.benwinding.com/tags/wavepower/"/>
+    
+      <category term="green" scheme="https://blog.benwinding.com/tags/green/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>The Glass Is Half Something</title>
+    <link href="https://blog.benwinding.com/the-glass-is-half-something/"/>
+    <id>https://blog.benwinding.com/the-glass-is-half-something/</id>
+    <published>2018-08-29T04:24:39.000Z</published>
+    <updated>2026-02-28T07:35:02.154Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;A quote recently stood out to me today and revealed a deep misunderstanding about the classic the quote, “The glass is half full!”.&lt;/p&gt;
+&lt;img src=&quot;/images/code2flow_7deb3.svg&quot; alt=&quot;Is the  glass half full?&quot; class=&quot;img-med&quot;/&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="rant" scheme="https://blog.benwinding.com/tags/rant/"/>
+    
+      <category term="philosophy" scheme="https://blog.benwinding.com/tags/philosophy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Why I Made YComments</title>
+    <link href="https://blog.benwinding.com/why-i-made-ycomments/"/>
+    <id>https://blog.benwinding.com/why-i-made-ycomments/</id>
+    <published>2018-08-21T04:33:27.000Z</published>
+    <updated>2026-02-28T07:35:02.154Z</updated>
+    
+    <summary type="html">
+    
+      After seeing the impact that discussion systems have had on the internet, I decided to bring the dicussion to the source!
+    
+    </summary>
+    
+    
+    
+      <category term="development" scheme="https://blog.benwinding.com/tags/development/"/>
+    
+      <category term="javascript" scheme="https://blog.benwinding.com/tags/javascript/"/>
+    
+      <category term="product" scheme="https://blog.benwinding.com/tags/product/"/>
+    
+      <category term="discussions" scheme="https://blog.benwinding.com/tags/discussions/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Scraping MyUni (Canvas LMS)</title>
+    <link href="https://blog.benwinding.com/scraping_myuni/"/>
+    <id>https://blog.benwinding.com/scraping_myuni/</id>
+    <published>2018-06-16T01:33:23.000Z</published>
+    <updated>2026-02-28T07:35:02.154Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;So it was time to study for uni exams, this meant that I needed to revise the content in all of the lectures. But wait! the lecture slides are only accessible through a convoluted website system called &lt;em&gt;Canvas LMS&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;Problem&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#Problem&quot;&gt;🔗&lt;/a&gt;Problem&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;System only allows one &lt;strong&gt;pdf&lt;/strong&gt; to downloaded at a time&lt;/li&gt;
+&lt;li&gt;Each &lt;strong&gt;pdf&lt;/strong&gt; requires 2 link clicks to download&lt;/li&gt;
+&lt;li&gt;Too many mouse clicks:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;40 pdf&#39;s * 2 links * 4 courses = 320 clicks!&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Solution-Scrape-it&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#Solution-Scrape-it&quot;&gt;🔗&lt;/a&gt;Solution: Scrape it&lt;/h2&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="development" scheme="https://blog.benwinding.com/tags/development/"/>
+    
+      <category term="script" scheme="https://blog.benwinding.com/tags/script/"/>
+    
+      <category term="scraping" scheme="https://blog.benwinding.com/tags/scraping/"/>
+    
+      <category term="uni" scheme="https://blog.benwinding.com/tags/uni/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Analysis Of Delivery-Only Restaurants</title>
+    <link href="https://blog.benwinding.com/analysis-delivery-only-restaurants/"/>
+    <id>https://blog.benwinding.com/analysis-delivery-only-restaurants/</id>
+    <published>2018-05-10T21:25:10.000Z</published>
+    <updated>2026-02-28T07:35:02.153Z</updated>
+    
+    <summary type="html">
+    
+      Some businesses are recognizing that tradtional services may be redundant. We found this out the hard way, while ordering a pizza.
+    
+    </summary>
+    
+    
+    
+      <category term="business" scheme="https://blog.benwinding.com/tags/business/"/>
+    
+      <category term="models" scheme="https://blog.benwinding.com/tags/models/"/>
+    
+      <category term="online-only" scheme="https://blog.benwinding.com/tags/online-only/"/>
+    
+      <category term="rant" scheme="https://blog.benwinding.com/tags/rant/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Discovering DELIVERY-ONLY pizza</title>
+    <link href="https://blog.benwinding.com/discovering-delivery-only-pizza/"/>
+    <id>https://blog.benwinding.com/discovering-delivery-only-pizza/</id>
+    <published>2018-05-04T09:53:45.000Z</published>
+    <updated>2026-02-28T07:35:02.154Z</updated>
+    
+    <summary type="html">
+    
+      Some businesses are recognizing that tradtional services may be redundant. We found this out the hard way, while ordering a pizza.
+    
+    </summary>
+    
+    
+    
+      <category term="rant" scheme="https://blog.benwinding.com/tags/rant/"/>
+    
+      <category term="delivery-only" scheme="https://blog.benwinding.com/tags/delivery-only/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Does Hacker News use Dark Patterns?</title>
+    <link href="https://blog.benwinding.com/does-hacker-news-use-dark-patterns/"/>
+    <id>https://blog.benwinding.com/does-hacker-news-use-dark-patterns/</id>
+    <published>2018-04-25T13:57:28.000Z</published>
+    <updated>2026-02-28T07:35:02.154Z</updated>
+    
+    <summary type="html">
+    
+      A small rant on how Hacker News confuses people with their advertising methods.
+    
+    </summary>
+    
+    
+    
+      <category term="rant" scheme="https://blog.benwinding.com/tags/rant/"/>
+    
+      <category term="hacker-news" scheme="https://blog.benwinding.com/tags/hacker-news/"/>
+    
+      <category term="dark-patterns" scheme="https://blog.benwinding.com/tags/dark-patterns/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Don&#39;t ALWAYS quick-return from functions</title>
+    <link href="https://blog.benwinding.com/dont-always-quick-return-from-functions/"/>
+    <id>https://blog.benwinding.com/dont-always-quick-return-from-functions/</id>
+    <published>2018-04-19T10:57:28.000Z</published>
+    <updated>2026-02-28T07:35:02.154Z</updated>
+    
+    <summary type="html">
+    
+      A brief look at the history behind the opposing styles of quick-return and single-return in functions.
+    
+    </summary>
+    
+    
+    
+      <category term="development" scheme="https://blog.benwinding.com/tags/development/"/>
+    
+      <category term="ssh" scheme="https://blog.benwinding.com/tags/ssh/"/>
+    
+      <category term="deploy" scheme="https://blog.benwinding.com/tags/deploy/"/>
+    
+      <category term="refactoring" scheme="https://blog.benwinding.com/tags/refactoring/"/>
+    
+      <category term="cleancode" scheme="https://blog.benwinding.com/tags/cleancode/"/>
+    
+      <category term="quick-return" scheme="https://blog.benwinding.com/tags/quick-return/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Model Solutions on Reality NOT Technology</title>
+    <link href="https://blog.benwinding.com/model-solutions-on-reality-not-technology/"/>
+    <id>https://blog.benwinding.com/model-solutions-on-reality-not-technology/</id>
+    <published>2018-04-12T11:25:34.000Z</published>
+    <updated>2026-02-28T07:35:02.154Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Technology is developed in order to solve a problem. The problem is defined in the real world so the solution should endevour to solve the problem based on a model of reality, not the model of technology.&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;+-------------------------------+&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;| Reality                       |&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;| +---------+                   |&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;| |Problem  |                   |&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;| |         |                   |&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;| +---------+                   |&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;|      |based on                |&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;| +----v----+      +----------+ |&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;| |Model    |      |Technology| |&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;| |         |      |          | |&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;| +---------+      +----------+ |&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;|      |based on         |      |&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;| +----v----+            |      |&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;| |Solution |      uses  |      |&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;| |         &amp;lt;------------+      |&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;| +---------+                   |&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;+-------------------------------+&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="rant" scheme="https://blog.benwinding.com/tags/rant/"/>
+    
+      <category term="development" scheme="https://blog.benwinding.com/tags/development/"/>
+    
+      <category term="software" scheme="https://blog.benwinding.com/tags/software/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Transparent Governments With Opaque Software</title>
+    <link href="https://blog.benwinding.com/transparent-governments-with-closed-systems/"/>
+    <id>https://blog.benwinding.com/transparent-governments-with-closed-systems/</id>
+    <published>2018-01-24T12:00:28.000Z</published>
+    <updated>2026-02-28T07:35:02.154Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Most people cringe at the thought of viewing or using government websites. It seems they’re always light years behind the industry in terms of standards and technology. It’s one of the biggest gaps between the private sector and the public sector, but why is this?&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="rant" scheme="https://blog.benwinding.com/tags/rant/"/>
+    
+      <category term="open-source" scheme="https://blog.benwinding.com/tags/open-source/"/>
+    
+      <category term="government" scheme="https://blog.benwinding.com/tags/government/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Easiest Git Deploy Ever!</title>
+    <link href="https://blog.benwinding.com/easiest-git-deploy/"/>
+    <id>https://blog.benwinding.com/easiest-git-deploy/</id>
+    <published>2017-11-25T00:13:58.000Z</published>
+    <updated>2026-02-28T07:35:02.154Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;The following tutorial shows the easiest way I’ve found to deploy pretty much any application to another machine!&lt;/p&gt;
+&lt;h2 id=&quot;Server-Prerequisites&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#Server-Prerequisites&quot;&gt;🔗&lt;/a&gt;Server Prerequisites:&lt;/h2&gt;
+&lt;p&gt;☑ &lt;code&gt;$ git pull&lt;/code&gt; the app from the server&lt;br&gt;
+☑ &lt;code&gt;$ ssh user@server&lt;/code&gt; get into the server&lt;br&gt;
+☑ pm2 or apache2 or nginx … some kind of server is running&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="development" scheme="https://blog.benwinding.com/tags/development/"/>
+    
+      <category term="ssh" scheme="https://blog.benwinding.com/tags/ssh/"/>
+    
+      <category term="deploy" scheme="https://blog.benwinding.com/tags/deploy/"/>
+    
+      <category term="git" scheme="https://blog.benwinding.com/tags/git/"/>
+    
+      <category term="node" scheme="https://blog.benwinding.com/tags/node/"/>
+    
+  </entry>
+  
+</feed>
